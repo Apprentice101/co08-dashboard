@@ -1,0 +1,904 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-06-12",
+  "updatedAt": "2026-06-12T18:00:00Z",
+  "exportedAt": "2026-06-12T19:06:32.685Z",
+  "districtCode": "CO-08",
+  "data": {
+    "DISTRICT": {
+      "id": "co-08",
+      "districtNumber": "CO-08",
+      "districtName": "Colorado's 8th Congressional District",
+      "state": "Colorado",
+      "counties": [
+        "Adams",
+        "Weld",
+        "Larimer (small portion)"
+      ],
+      "majorPlaces": [
+        "Thornton",
+        "Westminster",
+        "Greeley",
+        "Commerce City",
+        "Brighton",
+        "Fort Lupton"
+      ],
+      "cycleYear": 2026,
+      "population": 896000,
+      "registeredVoters": 430000,
+      "partyRegistration": [
+        {
+          "label": "Democratic",
+          "count": 133000,
+          "pct": 31
+        },
+        {
+          "label": "Republican",
+          "count": 122000,
+          "pct": 28.4
+        },
+        {
+          "label": "Unaffiliated",
+          "count": 163000,
+          "pct": 37.9
+        },
+        {
+          "label": "Other",
+          "count": 12000,
+          "pct": 2.8
+        }
+      ],
+      "previousResult": {
+        "year": 2024,
+        "seat": "U.S. House — CO-08",
+        "winner": {
+          "name": "Gabe Evans (R)",
+          "pct": 50.3,
+          "votes": 131000
+        },
+        "runnerUp": {
+          "name": "Yadira Caraveo (D, incumbent)",
+          "pct": 49.7,
+          "votes": 129000
+        },
+        "turnoutPct": 61
+      }
+    },
+    "SOURCES": {
+      "src-co-sos-elections": {
+        "id": "src-co-sos-elections",
+        "name": "Colorado Secretary of State — Elections Division",
+        "short": "CO SOS Elections",
+        "url": "https://www.sos.state.co.us/pubs/elections/main.html",
+        "publisher": "Colorado Secretary of State (Jena Griswold)",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high"
+      },
+      "src-co-sos-govote": {
+        "id": "src-co-sos-govote",
+        "name": "GoVoteColorado.gov — Official Voter Portal",
+        "short": "GoVoteColorado",
+        "url": "https://www.GoVoteColorado.gov",
+        "publisher": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high"
+      },
+      "src-co-sos-press-release-jun8": {
+        "id": "src-co-sos-press-release-jun8",
+        "name": "CO SOS Press Release — Primary Ballot Mailing, June 8, 2026",
+        "short": "CO SOS June 8 Release",
+        "url": "https://content.govdelivery.com/accounts/COSOS/bulletins/419e9d4",
+        "publisher": "Colorado Secretary of State (Jena Griswold)",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high",
+        "notes": "Official press release confirming ballot mailing began June 8, 437 drop boxes, 137 VSPCs statewide for June 30, 2026 primary."
+      },
+      "src-co-ballot-tracker": {
+        "id": "src-co-ballot-tracker",
+        "name": "Colorado BallotTrax — Ballot Tracking",
+        "short": "CO BallotTrax",
+        "url": "https://colorado.ballottrax.net",
+        "publisher": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high",
+        "notes": "BallotTrax-powered tracker for Colorado mail ballot status."
+      },
+      "src-adams-elections": {
+        "id": "src-adams-elections",
+        "name": "Adams County Elections Department",
+        "short": "Adams Elections",
+        "url": "https://adamscountyco.gov/our-county/elected-officials/clerk-recorder/adams-county-elections/",
+        "publisher": "Adams County Clerk and Recorder",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high",
+        "notes": "AdamsVotes.com portal; phone: 720-523-6500; email: adams.elections@adamscountyco.gov"
+      },
+      "src-weld-elections": {
+        "id": "src-weld-elections",
+        "name": "Weld County Elections Department",
+        "short": "Weld Elections",
+        "url": "https://www.weld.gov/Government/Departments/Clerk-and-Recorder/Elections-Department",
+        "publisher": "Weld County Clerk and Recorder",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high",
+        "notes": "Phone: 970-304-6525; email: elections@weld.gov"
+      },
+      "src-co-rev-stat": {
+        "id": "src-co-rev-stat",
+        "name": "Colorado Revised Statutes — Title 1 (Elections)",
+        "short": "CO Rev. Stat. Title 1",
+        "url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2023-title-01.pdf",
+        "publisher": "Colorado General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high"
+      },
+      "src-hb26-1113": {
+        "id": "src-hb26-1113",
+        "name": "HB26-1113 — Modifications to Elections (signed June 1, 2026)",
+        "short": "HB26-1113",
+        "url": "https://leg.colorado.gov/bills/hb26-1113",
+        "publisher": "Colorado General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high",
+        "notes": "Signed by Governor Polis June 1, 2026. Extended drop box window 15→22 days and mail ballot mailing 22→29 days. Effective-date ambiguity re: June 30 primary is tracked in CONFLICTS."
+      },
+      "src-ballotpedia-co08": {
+        "id": "src-ballotpedia-co08",
+        "name": "Ballotpedia — Colorado's 8th Congressional District election, 2026",
+        "short": "Ballotpedia CO-08",
+        "url": "https://ballotpedia.org/Colorado%27s_8th_Congressional_District_election,_2026",
+        "publisher": "Ballotpedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high"
+      },
+      "src-colorado-politics": {
+        "id": "src-colorado-politics",
+        "name": "Colorado Politics — Colorado Politics / Denver Gazette",
+        "short": "Colorado Politics",
+        "url": "https://www.coloradopolitics.com/",
+        "publisher": "Colorado Politics / Denver Gazette",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high"
+      },
+      "src-colorado-sun": {
+        "id": "src-colorado-sun",
+        "name": "Colorado Sun — Independent Colorado journalism",
+        "short": "Colorado Sun",
+        "url": "https://coloradosun.com/",
+        "publisher": "Colorado Sun",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high"
+      },
+      "src-colorado-times-recorder": {
+        "id": "src-colorado-times-recorder",
+        "name": "Colorado Times Recorder — Nonpartisan Colorado politics",
+        "short": "CO Times Recorder",
+        "url": "https://coloradotimesrecorder.com/",
+        "publisher": "Colorado Times Recorder",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-12",
+        "lastVerified": "2026-06-12",
+        "confidence": "high"
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "evt-co08-primary-reg-mail-deadline",
+        "milestone": "Voter registration deadline for mail ballot — primary",
+        "electionType": "primary",
+        "date": "2026-06-22",
+        "significance": "Last day to register by mail or online to receive a mail ballot for the June 30, 2026 primary. Voters who register after June 22 must vote in person at a Voter Service and Polling Center (VSPC). Same-day registration at a VSPC is available through 7 p.m. on Election Day.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-sos-press-release-jun8"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-primary-ballot-mailed",
+        "milestone": "Primary ballots begin mailing — primary",
+        "electionType": "primary",
+        "date": "2026-06-08",
+        "significance": "Colorado county clerks began mailing primary ballots June 8, 2026. Hard deadline for all clerks to mail was June 12. All active registered voters automatically receive a mail ballot. Unaffiliated voters receive both party ballots but may only return one.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-sos-press-release-jun8",
+          "src-adams-elections",
+          "src-weld-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-primary-dropbox-open",
+        "milestone": "Drop boxes open for primary ballot return",
+        "electionType": "primary",
+        "date": "2026-06-23",
+        "significance": "Official SOS guidance states 437 drop boxes statewide will be available by June 23, 2026 (7 days before election), for the June 30 primary. Note: HB26-1113 (signed June 1) extended the statutory drop box window to 22 days, creating an ambiguity as to whether drop boxes should have opened June 8 instead — see CONFLICTS.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-sos-press-release-jun8",
+          "src-weld-elections",
+          "src-hb26-1113"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-primary-vspc-open",
+        "milestone": "Voter Service and Polling Centers open — primary",
+        "electionType": "primary",
+        "date": "2026-06-22",
+        "significance": "137 statewide VSPCs open by June 22, 2026 for in-person voting, same-day registration, ballot assistance, and provisional voting ahead of the June 30 primary.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-sos-press-release-jun8",
+          "src-adams-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-primary-day",
+        "milestone": "Primary election day",
+        "electionType": "primary",
+        "date": "2026-06-30",
+        "significance": "Colorado June 30, 2026 statewide primary. VSPCs open 7 a.m.–7 p.m. Mail ballots must be received by 7 p.m. (postmarks do NOT count). CO-08 Democratic primary: Manny Rutinel vs. Shannon Bird (Evan Munsing suspended May 27; name still on ballot but votes not counted). Gabe Evans (R) runs uncontested — does not appear on primary ballot.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-sos-press-release-jun8",
+          "src-ballotpedia-co08"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-primary-canvass-deadline",
+        "milestone": "County canvass certification deadline — primary",
+        "electionType": "primary",
+        "date": "2026-07-28",
+        "significance": "Colorado county clerks must certify primary results within 28 days of the primary election (approximately July 28, 2026). Provisional ballots and signature-cured ballots are counted during the canvass period.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-rev-stat",
+          "src-co-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-primary-cure-deadline",
+        "milestone": "Ballot signature cure deadline — primary",
+        "electionType": "primary",
+        "date": "2026-07-08",
+        "significance": "Voters notified of a signature mismatch or missing signature on a returned primary mail ballot have 8 days after the election (approximately July 8, 2026) to cure the deficiency. Colorado county elections offices must notify voters by phone, email, or mail.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-reg-deadline",
+        "milestone": "Voter registration deadline — general",
+        "electionType": "general",
+        "date": "2026-10-26",
+        "significance": "Last day to register by mail or online to receive a mail ballot for the November 3, 2026 general election (8 days before election day per Colorado law). Same-day registration at a VSPC is available through 7 p.m. on Election Day.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-ballot-mailed",
+        "milestone": "Mail ballots begin mailing — general",
+        "electionType": "general",
+        "date": "2026-10-05",
+        "significance": "Under HB26-1113 (signed June 1, 2026, effective July 1 for this provision), county clerks must begin mailing ballots 29 days before the election (up from 22 days). For the November 3 general election, ballots must mail no later than approximately October 5, 2026. All active registered CO voters automatically receive a mail ballot.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-hb26-1113",
+          "src-adams-elections",
+          "src-weld-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-dropbox-open",
+        "milestone": "Drop boxes open — general",
+        "electionType": "general",
+        "date": "2026-10-12",
+        "significance": "Under HB26-1113 (effective July 1, 2026), drop boxes must accept ballots for 22 days before the election. For the November 3 general election, drop boxes open approximately October 12, 2026.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-hb26-1113",
+          "src-co-sos-elections",
+          "src-adams-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-vspc-open",
+        "milestone": "Voter Service and Polling Centers open — general",
+        "electionType": "general",
+        "date": "2026-10-19",
+        "significance": "VSPCs open statewide for in-person voting, same-day registration, ballot assistance, and replacement ballots ahead of the November 3 general election. Exact opening date varies by county — check Adams County and Weld County elections offices.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-adams-elections",
+          "src-weld-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-day",
+        "milestone": "General election day",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. CO-08: Gabe Evans (R, incumbent) vs. [D primary winner — Manny Rutinel or Shannon Bird] vs. David Wood (L). VSPCs open 7 a.m.–7 p.m. Mail ballots must be received by 7 p.m. (postmarks do NOT count).",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-ballotpedia-co08"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-ballot-receipt-deadline",
+        "milestone": "Mail ballot receipt deadline — general",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "Colorado does NOT count ballots by postmark — mail ballots must be physically received at a county elections office or drop box by 7 p.m. on Election Day, November 3, 2026. Ballots returned after 7 p.m. will not be counted.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-cure-deadline",
+        "milestone": "Ballot signature cure deadline — general",
+        "electionType": "general",
+        "date": "2026-11-11",
+        "significance": "Voters notified of a signature mismatch or missing signature on a returned mail ballot have 8 days after the election (approximately November 11, 2026) to cure the deficiency. County must notify voters by phone, email, or mail.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-canvass-deadline",
+        "milestone": "County canvass certification deadline — general",
+        "electionType": "general",
+        "date": "2026-12-01",
+        "significance": "Colorado county clerks must complete the official canvass and certify results within 28 days of the general election (approximately December 1, 2026). Provisional, cured, and late drop-box ballots are counted during this period.",
+        "governingAuthority": "Adams County, Weld County Elections",
+        "sourceIds": [
+          "src-co-rev-stat",
+          "src-co-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-co08-general-sos-certification",
+        "milestone": "Secretary of State certification — general",
+        "electionType": "general",
+        "date": "2026-12-11",
+        "significance": "Colorado Secretary of State certifies statewide general election results, including CO-08 outcome, approximately 35–38 days after election day.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "status": "estimated"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-co-all-mail-ballots",
+        "topic": "All-mail voting — every active registered voter receives a ballot",
+        "currentRule": "Colorado automatically mails a ballot to every active registered voter for every election. No opt-in or request is required. Voters may also vote in person at any Voter Service and Polling Center (VSPC) in their county.",
+        "status": "active",
+        "whyItMatters": "Every registered CO-08 voter in Adams, Weld, and Larimer counties automatically receives a mail ballot. There is no need to request a ballot separately.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-7.5-107. Colorado's Uniform Postal Ballot Act. Active registered voters receive ballots automatically; inactive voters may request one."
+      },
+      {
+        "id": "rule-co-same-day-reg",
+        "topic": "Same-day voter registration through Election Day",
+        "currentRule": "Colorado voters may register — or update their registration — in person at any VSPC through 7 p.m. on Election Day. Voters who register after the mail ballot deadline (approximately 8 days before election day) must vote in person at the VSPC at the time of registration.",
+        "status": "active",
+        "whyItMatters": "CO-08 voters who miss the standard mail ballot registration deadline can still vote in person at any Adams County or Weld County VSPC on or before Election Day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat",
+          "src-co-sos-press-release-jun8"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-2-217.7. Same-day registration is available at VSPCs only, not online or by mail, once the standard deadline has passed."
+      },
+      {
+        "id": "rule-co-drop-boxes",
+        "topic": "Ballot drop boxes — availability and security requirements",
+        "currentRule": "Colorado requires bipartisan-monitored, video-surveilled, 24-hour accessible drop boxes in each county. Under pre-HB26-1113 law, drop boxes opened 15 days before an election. HB26-1113 (signed June 1, 2026) requires drop boxes open 22 days before elections; the provision is effective July 1, 2026, applying clearly to the November 2026 general election. See CONFLICTS for the June 30 primary ambiguity.",
+        "status": "active",
+        "whyItMatters": "Drop boxes provide a faster, more secure alternative to mailing back ballots for CO-08 voters in Adams and Weld counties. 437 drop boxes were available statewide for the June 30 primary.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat",
+          "src-hb26-1113"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-7.5-107.3. HB26-1113 extends drop box window from 15 to 22 days. Campus drop boxes now required at institutions with 1,000+ enrolled students."
+      },
+      {
+        "id": "rule-co-signature-verification-cure",
+        "topic": "Signature verification and 8-day cure window",
+        "currentRule": "County election officials compare the signature on each returned mail ballot envelope against the voter's registration signature on file. If a signature is missing or does not match, the county must notify the voter and allow them to cure the discrepancy within 8 days after Election Day.",
+        "status": "active",
+        "whyItMatters": "Signature mismatch is the primary reason mail ballots are challenged in CO-08. Voters who receive a cure notice must respond within the 8-day window to have their ballot counted.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-7.5-107.3(3)(b). Counties must attempt to notify voters by phone and mail of any deficiency. Cure must be completed before the canvass is certified."
+      },
+      {
+        "id": "rule-co-voter-id-in-person",
+        "topic": "Voter ID requirements — in-person voting",
+        "currentRule": "Voters voting in person at a VSPC must provide a valid form of identification: Colorado driver's license, Colorado ID card, U.S. passport, military ID, or other government-issued photo ID. First-time voters who registered by mail may also need to provide proof of address.",
+        "status": "active",
+        "whyItMatters": "CO-08 voters using a VSPC for in-person voting or same-day registration must bring an acceptable ID. Mail ballot voters do not need to show ID.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-1-104(19.5). No ID required to return a mail ballot by mail or drop box."
+      },
+      {
+        "id": "rule-co-unaffiliated-voters-primary",
+        "topic": "Unaffiliated voter primary ballot rules",
+        "currentRule": "Unaffiliated (independent) voters automatically receive both major-party primary ballots. They may only return one. If both ballots are returned, neither is counted. Unaffiliated voters represent over half of Colorado's registered voters.",
+        "status": "active",
+        "whyItMatters": "Over half of CO-08 registered voters are unaffiliated. They must carefully choose which party's primary ballot to return for the June 30, 2026 primary. Returning both invalidates both votes.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-sos-press-release-jun8",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-7-201. Unaffiliated voters may cast one partisan primary ballot or return neither."
+      },
+      {
+        "id": "rule-co-ballot-receipt-no-postmark",
+        "topic": "Ballot must be received by 7 p.m. on Election Day — postmarks do not count",
+        "currentRule": "Colorado mail ballots must be physically received by the county elections office or placed in an official drop box by 7 p.m. on Election Day. Unlike some states, Colorado does NOT count ballots postmarked by Election Day but received later.",
+        "status": "active",
+        "whyItMatters": "CO-08 voters who mail their ballot back late risk it not being counted. The recommended mail-back deadline is approximately one week before Election Day to ensure timely delivery.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-7.5-107.3(3)(a). Voters are advised to mail ballots at least 7 days before Election Day or use a drop box for certainty."
+      },
+      {
+        "id": "rule-co-vspc-any-location",
+        "topic": "Vote at any VSPC countywide",
+        "currentRule": "Any registered voter may vote in person at any Voter Service and Polling Center (VSPC) within their county of registration — not just their assigned precinct. VSPCs accept walk-in voters, issue replacement ballots, assist with ballot curing, and register same-day voters.",
+        "status": "active",
+        "whyItMatters": "CO-08 voters in Adams or Weld County can use any VSPC in their respective county, providing flexibility for voters who have moved or work far from home.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-adams-elections",
+          "src-weld-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-5-102.9. VSPCs replace traditional precinct polling places in Colorado. Adams County operates multiple VSPCs for the 2026 elections."
+      },
+      {
+        "id": "rule-co-provisional-ballots",
+        "topic": "Provisional ballots",
+        "currentRule": "A provisional ballot is issued when a voter's eligibility cannot be immediately confirmed at a VSPC — e.g., same-day registrant, voter whose registration is inactive, or voter who already returned a mail ballot but wants to vote in person. Provisional ballots are counted after eligibility is verified during the canvass.",
+        "status": "active",
+        "whyItMatters": "CO-08 voters who have issues with their registration at the VSPC should always request a provisional ballot rather than leaving without voting.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-8.5-101 et seq. Provisional ballots are counted during the official canvass if eligibility is confirmed."
+      },
+      {
+        "id": "rule-co-hb26-1113-campus-dropbox",
+        "topic": "HB26-1113 — Campus drop box requirement (effective July 1, 2026)",
+        "currentRule": "HB26-1113 (signed June 1, 2026, effective July 1, 2026) requires that all higher education campuses with 1,000 or more enrolled students have at least one official ballot drop box. This applies to the November 2026 general election and all subsequent elections.",
+        "status": "active",
+        "whyItMatters": "CO-08 includes communities near university campuses in Adams and Weld counties. Campus drop boxes under this new requirement may increase ballot return options for student voters in the November general election.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-hb26-1113",
+          "src-co-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "HB26-1113, Section 3. Applies to elections conducted on or after July 1, 2026."
+      },
+      {
+        "id": "rule-co-voter-bill-of-rights",
+        "topic": "Colorado Voter Bill of Rights",
+        "currentRule": "Colorado's Voter Bill of Rights guarantees: right to vote if in line when polls close; right to vote a secret ballot; right to receive a replacement ballot if yours is spoiled; right to assistance from a person of your choice; right to vote a provisional ballot if eligibility is questioned; right to be notified and to cure any deficiency in your mail ballot.",
+        "status": "active",
+        "whyItMatters": "CO-08 voters should know these rights. In particular, voters whose mail ballots are challenged have the right to be notified and to cure the deficiency within the 8-day cure window.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-8.5-104. Posted at all Colorado VSPCs and drop box locations."
+      },
+      {
+        "id": "rule-co-inactive-voter-ballot",
+        "topic": "Inactive voters — ballot not automatically mailed",
+        "currentRule": "Voters with 'inactive' registration status do not automatically receive a mail ballot. Inactive voters may update their registration online or in person at any VSPC to receive a mail ballot, or they may vote in person at a VSPC using same-day registration.",
+        "status": "active",
+        "whyItMatters": "CO-08 voters who have moved and not updated their address may be in 'inactive' status and may not receive a mail ballot automatically. They should verify their registration status at GoVoteColorado.gov before the election.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-co-sos-govote",
+          "src-co-rev-stat"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-12",
+        "needsReview": true,
+        "detail": "C.R.S. § 1-2-605. Inactive voters may still vote but must take affirmative action to receive a mail ballot or vote in person."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-co-sos-govote",
+        "label": "GoVoteColorado.gov — Official voter portal",
+        "url": "https://www.GoVoteColorado.gov",
+        "description": "Colorado's official one-stop voter portal: register, check registration status, find drop boxes and VSPCs, track your ballot, and access the 2026 election calendar. Authoritative source for CO-08 deadlines.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-co-sos-govote",
+        "lastVerified": "2026-06-12"
+      },
+      {
+        "id": "res-co-sos-elections",
+        "label": "Colorado SOS — Elections Division",
+        "url": "https://www.sos.state.co.us/pubs/elections/main.html",
+        "description": "Colorado Secretary of State elections hub: voting rules, candidate filings, election results, county resources, and official news releases. Authoritative source for statewide voting procedures.",
+        "governingAuthority": "Colorado Secretary of State (Jena Griswold)",
+        "sourceType": "official-state",
+        "sourceId": "src-co-sos-elections",
+        "lastVerified": "2026-06-12"
+      },
+      {
+        "id": "res-co-ballot-tracker",
+        "label": "Colorado BallotTrax — Track your mail ballot",
+        "url": "https://colorado.ballottrax.net",
+        "description": "Track your Colorado mail ballot in real time: when it was mailed, received back, and whether it was accepted or needs attention. Sign up for email or text notifications.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-co-ballot-tracker",
+        "lastVerified": "2026-06-12"
+      },
+      {
+        "id": "res-adams-elections",
+        "label": "Adams County Elections Department",
+        "url": "https://adamscountyco.gov/our-county/elected-officials/clerk-recorder/adams-county-elections/",
+        "description": "Official elections page for Adams County voters (Thornton, Westminster, Commerce City, Brighton, Federal Heights, Northglenn). Drop box locations, VSPC sites, and canvass updates for the largest CO-08 county. Phone: 720-523-6500.",
+        "governingAuthority": "Adams County Clerk and Recorder",
+        "sourceType": "official-county",
+        "sourceId": "src-adams-elections",
+        "lastVerified": "2026-06-12"
+      },
+      {
+        "id": "res-weld-elections",
+        "label": "Weld County Elections Department",
+        "url": "https://www.weld.gov/Government/Departments/Clerk-and-Recorder/Elections-Department",
+        "description": "Official elections page for Weld County voters (Greeley, Fort Lupton, Evans, Firestone, Frederick, Mead, Milliken, Platteville). Drop box locations, VSPC sites, and county-specific election guides. Phone: 970-304-6525.",
+        "governingAuthority": "Weld County Clerk and Recorder",
+        "sourceType": "official-county",
+        "sourceId": "src-weld-elections",
+        "lastVerified": "2026-06-12"
+      },
+      {
+        "id": "res-co-hb26-1113",
+        "label": "HB26-1113 — Modifications to Elections (signed June 1, 2026)",
+        "url": "https://leg.colorado.gov/bills/hb26-1113",
+        "description": "Colorado General Assembly bill tracker for HB26-1113, signed by Governor Polis on June 1, 2026. Extends drop box availability to 22 days and mail ballot mailing to 29 days before elections (effective July 1, 2026 for these provisions). Campus drop box requirement also included.",
+        "governingAuthority": "Colorado General Assembly",
+        "sourceType": "statutory",
+        "sourceId": "src-hb26-1113",
+        "lastVerified": "2026-06-12"
+      },
+      {
+        "id": "res-ballotpedia-co08",
+        "label": "Ballotpedia — CO-08 2026 election",
+        "url": "https://ballotpedia.org/Colorado%27s_8th_Congressional_District_election,_2026",
+        "description": "Nonpartisan reference page for CO-08's 2026 election: candidate profiles, race ratings (Toss-up), campaign finance, and primary results. Updated as results come in.",
+        "governingAuthority": "Ballotpedia",
+        "sourceType": "secondary",
+        "sourceId": "src-ballotpedia-co08",
+        "lastVerified": "2026-06-12"
+      },
+      {
+        "id": "res-co-sos-mail-ballot-faq",
+        "label": "CO SOS — Mail Ballot FAQ",
+        "url": "https://www.sos.state.co.us/pubs/elections/FAQs/mailBallotsFAQ.html",
+        "description": "Official Colorado Secretary of State FAQ on mail ballots: how to track, return, cure, and replace a mail ballot. Key resource for CO-08 voters with questions about their mail ballot.",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-co-sos-elections",
+        "lastVerified": "2026-06-12"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-co08-001",
+        "title": "CO-08 dashboard initialized — 12 sources, 15 events, 12 rules wired",
+        "fieldChanged": "Dashboard configuration",
+        "oldValue": "Not configured",
+        "newValue": "Initial build June 12, 2026. All 12 sources (CO SOS, GoVoteColorado, SOS press release, BallotTrax, Adams County, Weld County, HB26-1113, Colorado Revised Statutes, Ballotpedia, Colorado Politics, Colorado Sun, Colorado Times Recorder) verified reachable. 15 election events and 12 voting rules researched from CO SOS, Colorado Revised Statutes, and HB26-1113. All events and rules marked needsReview/unconfirmed pending authoritative county-level confirmation.",
+        "sourceIds": [
+          "src-co-sos-elections",
+          "src-adams-elections",
+          "src-weld-elections",
+          "src-hb26-1113"
+        ],
+        "detectedAt": "2026-06-12T18:00:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "upd-co08-002",
+        "title": "CO-08 general election candidates set — Evans (R) vs. D primary winner vs. Wood (L)",
+        "fieldChanged": "General election candidates",
+        "oldValue": "D primary pending (June 30, 2026)",
+        "newValue": "Gabe Evans (R, incumbent) is the uncontested Republican nominee. Democratic nominee TBD — June 30 primary between Manny Rutinel (State Rep., Commerce City) and Shannon Bird (former State Rep., Westminster); Evan Munsing suspended May 27 but name remains on ballot. David Wood (Libertarian) nominated at 2026 LPCO Convention. Cook Political Report rates CO-08 a Toss-up.",
+        "sourceIds": [
+          "src-ballotpedia-co08",
+          "src-colorado-politics",
+          "src-colorado-times-recorder"
+        ],
+        "detectedAt": "2026-06-12T18:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-co08-003",
+        "title": "All rules and event dates flagged for county-level verification — HB26-1113 ambiguity noted",
+        "fieldChanged": "QA status",
+        "oldValue": "Not yet reviewed",
+        "newValue": "12 voting rules and 15 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-06-12). HB26-1113 effective-date ambiguity (does 22-day drop box window apply to June 30 primary?) logged in CONFLICTS. Verify rules with Adams County and Weld County elections offices before publish. Larimer County portion is small (~17,000 residents in Berthoud/Johnstown); primary election guidance same as statewide.",
+        "sourceIds": [
+          "src-co-rev-stat",
+          "src-hb26-1113",
+          "src-co-sos-elections"
+        ],
+        "detectedAt": "2026-06-12T18:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conf-co08-001",
+        "factInQuestion": "Whether HB26-1113's new 22-day mandatory drop box window applied to the June 30, 2026 primary election, or only to elections after July 1, 2026",
+        "sourceAId": "src-hb26-1113",
+        "sourceAClaim": "HB26-1113 (signed June 1, 2026, leg.colorado.gov/bills/hb26-1113) requires that 'each drop box must accept mail ballots for the 22-day period, rather than the 15-day period, prior to the day of an election.' The bill takes effect upon passage (June 1, 2026), with only the mail ballot mailing timeline provisions expressly deferred to July 1, 2026. A plain reading suggests the 22-day drop box requirement was immediately in force as of June 1, meaning drop boxes should have opened by June 8 for the June 30 primary.",
+        "sourceBId": "src-co-sos-press-release-jun8",
+        "sourceBClaim": "The Colorado Secretary of State's official June 8, 2026 press release states: 'by June 23, 437 drop boxes will be available for voters' — i.e., June 23 (7 days before election), not June 8 (22 days before election). Weld County's official primary voting locations PDF also confirms drop boxes opening June 23 for the broad drop box network, indicating the SOS and counties implemented the old 15-day rule for the June 30 primary.",
+        "whyItMatters": "If HB26-1113's 22-day drop box window was legally required for the June 30 primary, CO-08 voters and statewide voters may have been unable to use community drop boxes during the first two weeks of the ballot mailing window (ballots mailed June 8–12, drop boxes not open until June 23), potentially reducing ballot return options during the most convenient early-return period. This discrepancy also affects how the November 2026 general election drop box timeline should be presented to voters — specifically whether 22 days is now guaranteed for November.",
+        "suggestedReviewAction": "Confirm with the Colorado Secretary of State and Adams/Weld county elections offices which effective-date interpretation applies, and whether any voters were harmed by the narrower drop box window for the June 30 primary. Update the general election drop box event (evt-co08-general-dropbox-open) with the verified date once confirmed. Review whether any litigation or administrative guidance was issued clarifying the ambiguity.",
+        "severity": "medium",
+        "status": "unresolved",
+        "createdAt": "2026-06-12T18:00:00Z"
+      }
+    ],
+    "NEWS": [
+      {
+        "id": "news-co08-001",
+        "headline": "County Clerks May Begin Mailing Ballots for the 2026 Primary Election",
+        "sourceName": "Colorado Secretary of State (Jena Griswold) — Official Press Release",
+        "url": "https://content.govdelivery.com/accounts/COSOS/bulletins/419e9d4",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "Secretary of State Jena Griswold announced that county clerks may begin mailing primary ballots starting June 8, with a hard deadline of June 12. The release confirmed 437 drop boxes and 137 voter service and polling centers (VSPCs) across Colorado for the June 30, 2026 primary. Voters who register after June 22 must vote in person; same-day registration at a VSPC is available through 7 p.m. on Election Day.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-002",
+        "headline": "Sparks Fly in Debate Between Democrats in Colorado's 8th CD Primary",
+        "sourceName": "Colorado Politics (Colorado Politics / Denver Gazette)",
+        "url": "https://www.coloradopolitics.com/2026/06/08/sparks-fly-in-debate-between-democrats-in-colorados-8th-cd-primary/",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "State Rep. Manny Rutinel and former state Rep. Shannon Bird faced off in a televised 9News debate on June 8, the same day primary ballots began mailing. The candidates sparred over immigration policy, ICE enforcement records, and their approaches to challenging Republican incumbent Gabe Evans. Evans faces no Republican primary opponent, holding $3.4 million in cash on hand entering the general election cycle.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-003",
+        "headline": "Primary Ballots Hit Mailboxes in High-Stakes Election Year in Colorado",
+        "sourceName": "Colorado Politics (Colorado Politics / Denver Gazette)",
+        "url": "https://www.coloradopolitics.com/2026/06/08/primary-ballots-hit-mailboxes-in-high-stakes-election-year-in-colorado/",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "Colorado county clerks began mailing primary ballots on June 8, kicking off the final stretch before the June 30 primary. The article confirms 437 drop boxes and 137 VSPCs will be available statewide, and notes CO-08 as one of the most competitive U.S. House seats in the country with Rutinel and Bird vying to face incumbent Gabe Evans. Unaffiliated voters — over half of registered voters in Colorado — receive both major-party ballots but may only return one.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-004",
+        "headline": "Colorado Joins Lawsuit Challenging Trump's Election Executive Order Targeting Mail Voting",
+        "sourceName": "National Today / Colorado Politics (also reported by Denver7 and Colorado Politics on 2026-04-01)",
+        "url": "https://nationaltoday.com/us/co/denver/news/2026/04/03/colorado-joins-lawsuit-challenging-trumps-election-executive-order/",
+        "publishedAt": "2026-04-03",
+        "relevanceSummary": "Colorado joined a 23-state coalition lawsuit on April 3, 2026, challenging President Trump's March 31 executive order that would create a federal voter-eligibility list and direct the U.S. Postal Service to deliver mail ballots only to pre-approved voters. Secretary of State Griswold called the order 'undemocratic, unconstitutional, and dangerous,' and Attorney General Phil Weiser pledged legal action. The lawsuit was filed in U.S. District Court in Massachusetts and a hearing was scheduled for June 2, 2026.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-005",
+        "headline": "Colorado Leaders Say Trump's Executive Order Targeting Mail Voting Violates State Election Authority",
+        "sourceName": "Colorado Politics (Colorado Politics / Denver Gazette)",
+        "url": "https://www.coloradopolitics.com/2026/04/01/colorado-leaders-say-trumps-executive-order-targeting-mail-voting-violates-state-election-authority/",
+        "publishedAt": "2026-04-01",
+        "relevanceSummary": "Colorado officials from both parties responded to Trump's executive order, arguing it violates constitutional state authority over elections. Jefferson County Clerk Amanda Gonzalez stated, 'Elections are governed by state law, not presidential decree.' AG Weiser referenced the state's all-mail voting system, which saw 92% of Republican Colorado voters use mail ballots in 2024. The order threatens federal funding withholding for non-compliant states.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-006",
+        "headline": "HB26-1113 Modifications to Elections — Signed into Law, Expanding Drop Box Windows and Mail Ballot Timelines",
+        "sourceName": "Colorado General Assembly (state legislature primary source)",
+        "url": "https://leg.colorado.gov/bills/hb26-1113",
+        "publishedAt": "2026-06-01",
+        "relevanceSummary": "Governor Polis signed HB26-1113 into law on June 1, 2026, making significant updates to Colorado's Uniform Election Code. Key changes: drop boxes must now accept ballots for 22 days (up from 15) before an election; mail ballot mailing timeline extended from 22 to 29 days before elections (effective July 1, 2026, applying to the November general election); and campuses with 1,000+ enrolled students now must have a drop box. The law also clarifies that VSPCs experiencing supply shortages cannot close early.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      }
+    ],
+    "LAST_REFRESH": {
+      "id": "run-2026-06-12-co-08-initial",
+      "startedAt": "2026-06-12T17:00:00Z",
+      "completedAt": "2026-06-12T18:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 12,
+      "updatesCreated": 0,
+      "conflictsCreated": 1,
+      "errors": [],
+      "summary": "Initial build June 12, 2026. All 12 sources verified. CO-08 Democratic primary (June 30) is upcoming: Manny Rutinel vs. Shannon Bird. Evan Munsing suspended May 27 but remains on ballot. Gabe Evans (R) is uncontested for the general; David Wood (L) also in the general. HB26-1113 drop-box effective-date ambiguity logged in CONFLICTS. All 15 events and 12 rules marked needsReview/unconfirmed pending authoritative 2026-specific deadline confirmation from Adams and Weld county elections offices."
+    },
+    "NEXT_REFRESH_AT": "2026-06-19T18:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-co08-2026-w24",
+      "periodStart": "2026-06-08",
+      "periodEnd": "2026-06-14",
+      "sourcesChecked": 12,
+      "newUpdates": 0,
+      "conflictsCreated": 1,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 6,
+      "needsReview": 15,
+      "sourceErrors": 0,
+      "summary": "Initial build week of June 8–14, 2026. CO-08 dashboard created ahead of June 30 Democratic primary. Gabe Evans (R, incumbent) is the uncontested Republican nominee. D primary: Rutinel vs. Bird (Munsing suspended May 27). David Wood (L) in November general. HB26-1113 (signed June 1) extended drop box window and mail ballot mailing for future elections — effective-date ambiguity for June 30 primary logged in CONFLICTS. Colorado uses all-mail ballots, 437 drop boxes, 137 VSPCs. 12 sources verified, 15 events and 12 rules flagged needsReview pending county verification.",
+      "generatedAt": "2026-06-12T18:00:00Z"
+    }
+  }
+}
