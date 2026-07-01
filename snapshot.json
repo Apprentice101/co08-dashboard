@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-12",
-  "updatedAt": "2026-06-12T18:00:00Z",
-  "exportedAt": "2026-07-01T05:38:09.472Z",
+  "dataAsOf": "2026-07-01",
+  "updatedAt": "2026-07-01T19:46:00.269Z",
+  "exportedAt": "2026-07-01T20:01:58.888Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-06-12",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-06-12",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -501,7 +501,7 @@
       {
         "id": "rule-co-drop-boxes",
         "topic": "Ballot drop boxes — availability and security requirements",
-        "currentRule": "Colorado requires bipartisan-monitored, video-surveilled, 24-hour accessible drop boxes in each county. Under pre-HB26-1113 law, drop boxes opened 15 days before an election. HB26-1113 (signed June 1, 2026) requires drop boxes open 22 days before elections; the provision is effective July 1, 2026, applying clearly to the November 2026 general election. See CONFLICTS for the June 30 primary ambiguity.",
+        "currentRule": "Colorado requires secure, monitored mail ballot drop boxes in each county. Under prior law, each drop box had to accept ballots for the fifteen-day period prior to and including election day. HB26-1113, approved June 1, 2026, amends C.R.S. 1-5-102.7(5)(c) so that each drop box must accept mail ballots delivered by electors for the twenty-two-day period prior to and including the day of the election, effective upon the Governor's signature. The statute itself does not specify bipartisan monitoring, video surveillance, or 24-hour accessibility requirements.",
         "status": "active",
         "whyItMatters": "Drop boxes provide a faster, more secure alternative to mailing back ballots for CO-08 voters in Adams and Weld counties. 437 drop boxes were available statewide for the June 30 primary.",
         "governingLevel": "statewide",
@@ -600,7 +600,7 @@
       {
         "id": "rule-co-provisional-ballots",
         "topic": "Provisional ballots",
-        "currentRule": "A provisional ballot is issued when a voter's eligibility cannot be immediately confirmed at a VSPC — e.g., same-day registrant, voter whose registration is inactive, or voter who already returned a mail ballot but wants to vote in person. Provisional ballots are counted after eligibility is verified during the canvass.",
+        "currentRule": "A provisional ballot is provided to a voter whose eligibility to vote is not immediately established on Election Day. The election official then evaluates the voter's eligibility after Election Day has passed to determine whether the provisional ballot should be counted. The most common reasons a voter might be offered a provisional ballot are: the statewide voter registration system shows that the voter already voted in the election; and the voter did not present an approved form of identification when required. Provisional ballots are verified and counted after regular ballots, with counting completed no later than 9 days after a primary, general, odd-year, or coordinated election.",
         "status": "active",
         "whyItMatters": "CO-08 voters who have issues with their registration at the VSPC should always request a provisional ballot rather than leaving without voting.",
         "governingLevel": "statewide",
@@ -873,17 +873,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-06-12-co-08-initial",
-      "startedAt": "2026-06-12T17:00:00Z",
-      "completedAt": "2026-06-12T18:00:00Z",
-      "triggerType": "manual",
-      "sourcesChecked": 12,
-      "updatesCreated": 0,
-      "conflictsCreated": 1,
+      "id": "run-2026-07-01-co08-auto",
+      "startedAt": "2026-07-01T19:45:24.872Z",
+      "completedAt": "2026-07-01T19:46:00.269Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 17,
+      "updatesCreated": 2,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Initial build June 12, 2026. All 12 sources verified. CO-08 Democratic primary (June 30) is upcoming: Manny Rutinel vs. Shannon Bird. Evan Munsing suspended May 27 but remains on ballot. Gabe Evans (R) is uncontested for the general; David Wood (L) also in the general. HB26-1113 drop-box effective-date ambiguity logged in CONFLICTS. All 15 events and 12 rules marked needsReview/unconfirmed pending authoritative 2026-specific deadline confirmation from Adams and Weld county elections offices."
+      "summary": "Automated refresh completed 2026-07-01 for CO-08. Sources checked: 17. LLM verifications: 9. 2 rule/source content changes + 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-06-19T18:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-08T19:46:00.269Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
