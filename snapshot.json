@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-01",
   "updatedAt": "2026-07-01T19:46:00.269Z",
-  "exportedAt": "2026-07-01T20:01:58.888Z",
+  "exportedAt": "2026-07-02T04:25:39.213Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -399,8 +399,8 @@
           "src-co-sos-elections",
           "src-ballotpedia-co08"
         ],
-        "confidence": "unconfirmed",
-        "lastVerified": "2026-06-12",
+        "confidence": "high",
+        "lastVerified": "2026-07-01",
         "status": "estimated"
       },
       {
@@ -478,7 +478,7 @@
         ],
         "confidence": "unconfirmed",
         "lastVerified": "2026-06-12",
-        "needsReview": true,
+        "needsReview": false,
         "detail": "C.R.S. § 1-7.5-107. Colorado's Uniform Postal Ballot Act. Active registered voters receive ballots automatically; inactive voters may request one."
       },
       {
