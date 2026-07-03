@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T00:17:06.758Z",
-  "exportedAt": "2026-07-03T00:35:46.492Z",
+  "updatedAt": "2026-07-03T01:25:58.847Z",
+  "exportedAt": "2026-07-03T01:41:19.264Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -870,20 +870,50 @@
         "relevanceSummary": "Governor Polis signed HB26-1113 into law on June 1, 2026, making significant updates to Colorado's Uniform Election Code. Key changes: drop boxes must now accept ballots for 22 days (up from 15) before an election; mail ballot mailing timeline extended from 22 to 29 days before elections (effective July 1, 2026, applying to the November general election); and campuses with 1,000+ enrolled students now must have a drop box. The law also clarifies that VSPCs experiencing supply shortages cannot close early.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0xqgifh",
+        "headline": "June 30, 2026, election results",
+        "sourceName": "Ballotpedia",
+        "url": "https://ballotpedia.org/June_30,_2026,_election_results",
+        "publishedAt": "2026-07-01",
+        "relevanceSummary": "Ballotpedia’s statewide June 30, 2026 results page explains how Colorado’s major-party candidates, including those in CO-08, qualified for primary ballots—either by securing at least 30% at district assemblies or through petition—giving voters insight into ballot-access and candidate qualification rules that govern their district.[3]",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0mj7p3t",
+        "headline": "Manny Rutinel wins Democratic primary in 8th District, Colorado's most competitive U.S. House seat",
+        "sourceName": "Colorado Public Radio News",
+        "url": "https://www.cpr.org/2026/06/30/colorado-district-8-primary-election-2026-results/",
+        "publishedAt": "2026-06-30",
+        "relevanceSummary": "Colorado Public Radio details the outcome of the CO-08 Democratic primary, explaining that state Rep. Manny Rutinel defeated former state Sen. Shannon Bird to advance to the general election against Republican Gabe Evans, helping voters understand who qualified for the November ballot in their district.[2][3]",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-05cla3a",
+        "headline": "Manny Rutinel defeats Shannon Bird in Democratic primary in Colorado's 8th Congressional District",
+        "sourceName": "KUNC",
+        "url": "https://www.kunc.org/politics/2026-06-30/manny-rutinel-defeats-shannon-bird-in-democratic-primary-in-colorados-8th-congressional-district",
+        "publishedAt": "2026-06-30",
+        "relevanceSummary": "KUNC reports the certified results of the June 30 primary in Colorado’s 8th Congressional District, confirming Manny Rutinel as the Democratic nominee who will face Republican Rep. Gabe Evans in November, information that clarifies the general-election ballot for CO-08 voters.[1]",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-03-co08-auto",
-      "startedAt": "2026-07-03T00:16:25.791Z",
-      "completedAt": "2026-07-03T00:17:06.758Z",
+      "startedAt": "2026-07-03T01:25:30.265Z",
+      "completedAt": "2026-07-03T01:25:58.847Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 0,
+      "sourcesChecked": 15,
+      "updatesCreated": 3,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for CO-08. Sources checked: 16. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for CO-08. Sources checked: 15. LLM verifications: 8. No changes detected; all sources verified unchanged."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T00:17:06.758Z",
+    "NEXT_REFRESH_AT": "2026-07-10T01:25:58.847Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
