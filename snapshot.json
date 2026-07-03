@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-01",
-  "updatedAt": "2026-07-01T19:46:00.269Z",
-  "exportedAt": "2026-07-03T00:02:11.108Z",
+  "dataAsOf": "2026-07-03",
+  "updatedAt": "2026-07-03T00:17:06.758Z",
+  "exportedAt": "2026-07-03T00:35:46.492Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -873,17 +873,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-01-co08-auto",
-      "startedAt": "2026-07-01T19:45:24.872Z",
-      "completedAt": "2026-07-01T19:46:00.269Z",
+      "id": "run-2026-07-03-co08-auto",
+      "startedAt": "2026-07-03T00:16:25.791Z",
+      "completedAt": "2026-07-03T00:17:06.758Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 17,
-      "updatesCreated": 2,
+      "sourcesChecked": 16,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-01 for CO-08. Sources checked: 17. LLM verifications: 9. 2 rule/source content changes + 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for CO-08. Sources checked: 16. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-08T19:46:00.269Z",
+    "NEXT_REFRESH_AT": "2026-07-10T00:17:06.758Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
