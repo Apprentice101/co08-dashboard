@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T06:23:09.255Z",
-  "exportedAt": "2026-07-08T06:27:17.569Z",
+  "updatedAt": "2026-07-08T19:36:27.434Z",
+  "exportedAt": "2026-07-08T19:42:00.137Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-06-12",
+        "lastVerified": "2026-07-08",
         "confidence": "high",
         "notes": "Official press release confirming ballot mailing began June 8, 437 drop boxes, 137 VSPCs statewide for June 30, 2026 primary."
       },
@@ -124,7 +124,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-06-12",
+        "lastVerified": "2026-07-08",
         "confidence": "high",
         "notes": "AdamsVotes.com portal; phone: 720-523-6500; email: adams.elections@adamscountyco.gov"
       },
@@ -904,16 +904,16 @@
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-08-co08-auto",
-      "startedAt": "2026-07-08T06:23:04.636Z",
-      "completedAt": "2026-07-08T06:23:09.255Z",
+      "startedAt": "2026-07-08T19:36:22.352Z",
+      "completedAt": "2026-07-08T19:36:27.434Z",
       "triggerType": "scheduled",
       "sourcesChecked": 19,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for CO-08. Sources checked: 19. LLM verifications: 9. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-08 for CO-08. Sources checked: 19. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T06:23:09.255Z",
+    "NEXT_REFRESH_AT": "2026-07-15T19:36:27.434Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
