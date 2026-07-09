@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-08",
   "updatedAt": "2026-07-08T19:36:27.434Z",
-  "exportedAt": "2026-07-08T20:34:02.655Z",
+  "exportedAt": "2026-07-09T17:02:41.124Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -664,83 +664,83 @@
     ],
     "RESOURCES": [
       {
-        "id": "res-co-sos-govote",
-        "label": "GoVoteColorado.gov — Official voter portal",
-        "url": "https://www.GoVoteColorado.gov",
+        "id": "res-register",
+        "label": "Register to vote",
         "description": "Colorado's official one-stop voter portal: register, check registration status, find drop boxes and VSPCs, track your ballot, and access the 2026 election calendar. Authoritative source for CO-08 deadlines.",
+        "url": "https://www.GoVoteColorado.gov",
         "governingAuthority": "Colorado Secretary of State",
         "sourceType": "official-state",
         "sourceId": "src-co-sos-govote",
-        "lastVerified": "2026-06-12"
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Colorado voter portal — find your voting center and drop-off locations.",
+        "url": "https://www.sos.state.co.us/pubs/elections/VIP.html",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-co-sos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "Official elections page for Adams County voters (Thornton, Westminster, Commerce City, Brighton, Federal Heights, Northglenn). Drop box locations, VSPC sites, and canvass updates for the largest CO-08 county. Phone: 720-523-6500.",
+        "url": "https://adamscountyco.gov/our-county/elected-officials/clerk-recorder/adams-county-elections/",
+        "governingAuthority": "Adams County Clerk and Recorder",
+        "sourceType": "official-county",
+        "sourceId": "src-adams-elections",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Colorado's official one-stop voter portal: register, check registration status, find drop boxes and VSPCs, track your ballot, and access the 2026 election calendar. Authoritative source for CO-08 deadlines.",
+        "url": "https://www.GoVoteColorado.gov",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-co-sos-govote",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Colorado's official one-stop voter portal: register, check registration status, find drop boxes and VSPCs, track your ballot, and access the 2026 election calendar. Authoritative source for CO-08 deadlines.",
+        "url": "https://www.GoVoteColorado.gov",
+        "governingAuthority": "Colorado Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-co-sos-govote",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official elections page for Adams County voters (Thornton, Westminster, Commerce City, Brighton, Federal Heights, Northglenn). Drop box locations, VSPC sites, and canvass updates for the largest CO-08 county. Phone: 720-523-6500.",
+        "url": "https://adamscountyco.gov/our-county/elected-officials/clerk-recorder/adams-county-elections/",
+        "governingAuthority": "Adams County Clerk and Recorder",
+        "sourceType": "official-county",
+        "sourceId": "src-adams-elections",
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-co-sos-elections",
         "label": "Colorado SOS — Elections Division",
-        "url": "https://www.sos.state.co.us/pubs/elections/main.html",
         "description": "Colorado Secretary of State elections hub: voting rules, candidate filings, election results, county resources, and official news releases. Authoritative source for statewide voting procedures.",
+        "url": "https://www.sos.state.co.us/pubs/elections/main.html",
         "governingAuthority": "Colorado Secretary of State (Jena Griswold)",
         "sourceType": "official-state",
         "sourceId": "src-co-sos-elections",
         "lastVerified": "2026-06-12"
       },
       {
-        "id": "res-co-ballot-tracker",
-        "label": "Colorado BallotTrax — Track your mail ballot",
-        "url": "https://colorado.ballottrax.net",
-        "description": "Track your Colorado mail ballot in real time: when it was mailed, received back, and whether it was accepted or needs attention. Sign up for email or text notifications.",
-        "governingAuthority": "Colorado Secretary of State",
-        "sourceType": "official-state",
-        "sourceId": "src-co-ballot-tracker",
-        "lastVerified": "2026-06-12"
-      },
-      {
-        "id": "res-adams-elections",
-        "label": "Adams County Elections Department",
-        "url": "https://adamscountyco.gov/our-county/elected-officials/clerk-recorder/adams-county-elections/",
-        "description": "Official elections page for Adams County voters (Thornton, Westminster, Commerce City, Brighton, Federal Heights, Northglenn). Drop box locations, VSPC sites, and canvass updates for the largest CO-08 county. Phone: 720-523-6500.",
-        "governingAuthority": "Adams County Clerk and Recorder",
-        "sourceType": "official-county",
-        "sourceId": "src-adams-elections",
-        "lastVerified": "2026-06-12"
-      },
-      {
-        "id": "res-weld-elections",
-        "label": "Weld County Elections Department",
-        "url": "https://www.weld.gov/Government/Departments/Clerk-and-Recorder/Elections-Department",
-        "description": "Official elections page for Weld County voters (Greeley, Fort Lupton, Evans, Firestone, Frederick, Mead, Milliken, Platteville). Drop box locations, VSPC sites, and county-specific election guides. Phone: 970-304-6525.",
-        "governingAuthority": "Weld County Clerk and Recorder",
-        "sourceType": "official-county",
-        "sourceId": "src-weld-elections",
-        "lastVerified": "2026-06-12"
-      },
-      {
-        "id": "res-co-hb26-1113",
-        "label": "HB26-1113 — Modifications to Elections (signed June 1, 2026)",
-        "url": "https://leg.colorado.gov/bills/hb26-1113",
-        "description": "Colorado General Assembly bill tracker for HB26-1113, signed by Governor Polis on June 1, 2026. Extends drop box availability to 22 days and mail ballot mailing to 29 days before elections (effective July 1, 2026 for these provisions). Campus drop box requirement also included.",
-        "governingAuthority": "Colorado General Assembly",
-        "sourceType": "statutory",
-        "sourceId": "src-hb26-1113",
-        "lastVerified": "2026-06-12"
-      },
-      {
         "id": "res-ballotpedia-co08",
         "label": "Ballotpedia — CO-08 2026 election",
-        "url": "https://ballotpedia.org/Colorado%27s_8th_Congressional_District_election,_2026",
         "description": "Nonpartisan reference page for CO-08's 2026 election: candidate profiles, race ratings (Toss-up), campaign finance, and primary results. Updated as results come in.",
+        "url": "https://ballotpedia.org/Colorado%27s_8th_Congressional_District_election,_2026",
         "governingAuthority": "Ballotpedia",
         "sourceType": "secondary",
         "sourceId": "src-ballotpedia-co08",
-        "lastVerified": "2026-06-12"
-      },
-      {
-        "id": "res-co-sos-mail-ballot-faq",
-        "label": "CO SOS — Mail Ballot FAQ",
-        "url": "https://www.sos.state.co.us/pubs/elections/FAQs/mailBallotsFAQ.html",
-        "description": "Official Colorado Secretary of State FAQ on mail ballots: how to track, return, cure, and replace a mail ballot. Key resource for CO-08 voters with questions about their mail ballot.",
-        "governingAuthority": "Colorado Secretary of State",
-        "sourceType": "official-state",
-        "sourceId": "src-co-sos-elections",
         "lastVerified": "2026-06-12"
       }
     ],
