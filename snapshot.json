@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T19:36:27.434Z",
-  "exportedAt": "2026-07-09T17:02:41.124Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:12:18.187Z",
+  "exportedAt": "2026-07-15T06:38:38.304Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -900,20 +900,40 @@
         "relevanceSummary": "KUNC reports the certified results of the June 30 primary in Colorado’s 8th Congressional District, confirming Manny Rutinel as the Democratic nominee who will face Republican Rep. Gabe Evans in November, information that clarifies the general-election ballot for CO-08 voters.[1]",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0t7ot4s",
+        "headline": "It's primary Election Day in Colorado. Here's what you need to know about voting, ballots and deadlines",
+        "sourceName": "The Colorado Sun",
+        "url": "https://coloradosun.com/2026/06/30/colorado-primary-election-guide-2026-2/",
+        "publishedAt": "2026-06-30",
+        "relevanceSummary": "This statewide primary-election guide explains Colorado’s mail-ballot system, same-day voter registration, in-person voting options, ballot return deadlines, and how unaffiliated voters can participate in party primaries—procedures that apply directly to CO-08 voters as Colorado residents.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0kq8woe",
+        "headline": "Colorado Supreme Court rejects efforts to put redistricting measures on 2028 ballot",
+        "sourceName": "CBS News Colorado",
+        "url": "https://www.cbsnews.com/colorado/news/democrats-congressional-districts-colorado-supreme-court/",
+        "publishedAt": "2026-06-29",
+        "relevanceSummary": "The Colorado Supreme Court blocked five proposed ballot measures—three backed by Democrats and two by Republicans—that would have allowed redrawing Colorado’s congressional map ahead of the 2028 election, meaning CO-08’s current boundaries and representation framework remain in place for upcoming cycles.[4]",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-08-co08-auto",
-      "startedAt": "2026-07-08T19:36:22.352Z",
-      "completedAt": "2026-07-08T19:36:27.434Z",
+      "id": "run-2026-07-15-co08-auto",
+      "startedAt": "2026-07-15T06:11:37.080Z",
+      "completedAt": "2026-07-15T06:12:18.187Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 19,
-      "updatesCreated": 0,
+      "sourcesChecked": 15,
+      "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for CO-08. Sources checked: 19. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-15 for CO-08. Sources checked: 15. LLM verifications: 9. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T19:36:27.434Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:12:18.187Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
