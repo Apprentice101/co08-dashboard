@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-15",
-  "updatedAt": "2026-07-15T06:12:18.187Z",
-  "exportedAt": "2026-07-15T06:38:38.304Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:26:45.954Z",
+  "exportedAt": "2026-07-22T06:49:54.106Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -920,20 +920,30 @@
         "relevanceSummary": "The Colorado Supreme Court blocked five proposed ballot measures—three backed by Democrats and two by Republicans—that would have allowed redrawing Colorado’s congressional map ahead of the 2028 election, meaning CO-08’s current boundaries and representation framework remain in place for upcoming cycles.[4]",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0rvv9ek",
+        "headline": "Proposed Postal Service rule threatens Colorado mail-in voting system, officials say",
+        "sourceName": "Sentinel Colorado",
+        "url": "https://sentinelcolorado.com/state-and-region-news/colorado-news-state-and-region-news/proposed-postal-service-rule-threatens-colorado-mail-in-voting-system-officials-say/",
+        "publishedAt": "2026-07-18",
+        "relevanceSummary": "The article explains a proposed U.S. Postal Service rule tied to a blocked executive order that would require states like Colorado to submit lists of all voters planning to vote by mail and use uniquely barcoded ballot envelopes, with ballots potentially not delivered if states refuse, directly implicating Colorado’s universal mail-in ballot system used by CO-08 voters.[2]",
+        "tag": "rule-change",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-15-co08-auto",
-      "startedAt": "2026-07-15T06:11:37.080Z",
-      "completedAt": "2026-07-15T06:12:18.187Z",
+      "id": "run-2026-07-22-co08-auto",
+      "startedAt": "2026-07-22T06:26:07.502Z",
+      "completedAt": "2026-07-22T06:26:45.954Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 2,
+      "sourcesChecked": 16,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-15 for CO-08. Sources checked: 15. LLM verifications: 9. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-22 for CO-08. Sources checked: 16. LLM verifications: 11. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-22T06:12:18.187Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:26:45.954Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
