@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:26:45.954Z",
-  "exportedAt": "2026-07-22T21:14:50.645Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:29:06.696Z",
+  "exportedAt": "2026-07-29T06:53:15.143Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -930,20 +930,90 @@
         "relevanceSummary": "The article explains a proposed U.S. Postal Service rule tied to a blocked executive order that would require states like Colorado to submit lists of all voters planning to vote by mail and use uniquely barcoded ballot envelopes, with ballots potentially not delivered if states refuse, directly implicating Colorado’s universal mail-in ballot system used by CO-08 voters.[2]",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0j2fpu0",
+        "headline": "How They Voted: Colorado congressional votes for July 17-23, 2026",
+        "sourceName": "Boulder Daily Camera",
+        "url": "https://www.dailycamera.com/2026/07/24/colorado-congressional-votes-3/",
+        "publishedAt": "2026-07-24",
+        "relevanceSummary": "This Colorado-focused congressional vote roundup explains that the House passed the Stop Insider Trading Act, noting that one provision would require voters in federal elections to show photo identification at ballot sites, signaling how Colorado’s delegation—including CO-08’s representative—voted on proposed federal voter-ID changes.[2] It helps CO-08 voters understand their representative’s position on tightening identification requirements for federal elections.[2]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0t6tndp",
+        "headline": "The 13 Democrats who backed voter ID at elections",
+        "sourceName": "Newsweek",
+        "url": "https://www.newsweek.com/the-13-democrats-who-backed-voter-id-at-elections-12233445",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "Newsweek notes that 13 House Democrats joined Republicans to pass H.R. 7008, the Stop Insider Trading Act, which contains new voter-identification requirements and revives debate over the SAVE America Act’s plan to require documentary proof of citizenship and national voter ID standards.[10] This context helps Colorado voters, including those in CO-08, understand the bipartisan dynamics behind proposed federal changes to voter ID and registration rules.[10]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0bsc2pv",
+        "headline": "House Passes 232-198 Voter ID Bill Tied to Congressional Stock Trading Curbs",
+        "sourceName": "Zetik News",
+        "url": "https://www.zetik.com/news/article/story_id-p008-170574",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "This piece reports that the House approved a measure requiring photo ID for mail-in ballots and extending voter-identification rules to absentee voting, as part of a package that also mandates proof of citizenship for voter registration and expands federal access to state voter rolls.[3] Those proposed changes would directly affect Colorado’s registration procedures, mail-ballot ID-copy requirements, and voter-roll maintenance if they become law, impacting voters in CO-08.[3]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0wyur7c",
+        "headline": "House passes GOP bill tying new voter ID rules to congressional stock trading restrictions",
+        "sourceName": "Electionline",
+        "url": "https://electionline.org/home_features/house-passes-gop-bill-tying-new-voter-id-rules-to-congressional-stock-trading-restrictions/",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "This article details House passage of the Stop Insider Trading Act, which includes the Voter ID Act imposing new voter-identification requirements before upcoming federal elections, potentially adding national voter-ID conditions Colorado would have to follow for federal contests including CO-08.[4] Although the bill faces long odds in the Senate, it outlines a concrete proposal to tighten ID rules that Colorado voters should be aware of.[4]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0ntfkua",
+        "headline": "GOP budget blueprint, with Trump's voter ID demands, adopted in House as Senate resists",
+        "sourceName": "Roll Call",
+        "url": "https://rollcall.com/2026/07/22/gop-budget-blueprint-adopted-in-house-as-senate-resists/",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "Roll Call explains that the House’s fiscal 2027 budget resolution includes instructions for a $10 billion fund to support states that adopt stricter voter ID measures, advancing a national push toward tighter ID rules in federal elections.[6] If enacted, Colorado could face incentives or pressure to alter its voter-ID and election-administration practices affecting CO-08 voters.[6]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0pe9n4l",
+        "headline": "U.S. House passes bill requiring photo ID for federal elections",
+        "sourceName": "ABC 6 News",
+        "url": "https://www.kaaltv.com/news/u-s-house-passes-bill-requiring-photo-id-for-federal-elections/",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "The House-approved bill would require voters in federal elections to present a physical photo ID at polling places and to include a photocopy of their photo ID with mail-in absentee ballots, directly implicating future voter-ID and mail-ballot rules that could apply to Colorado’s 8th District if enacted.[5] It also clarifies provisional ballot use when voters lack ID, making it important for CO-08 voters to track as a potential change to federal election procedures.[5]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-04zu1ks",
+        "headline": "Trump-backed SAVE Act is newest effort to collect private voter information",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/trump-backed-save-act-newest-effort-collect-private/story?id=135030149",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "ABC News describes the SAVE America Act, a GOP-backed proposal that would require voter ID at the ballot box and documentary proof of U.S. citizenship to register for federal elections, directing states to pull data from sources like Social Security records to verify citizenship and to remove noncitizens from voter rolls.[9][10] If passed, Colorado’s registration procedures and voter-roll management would change for federal races, directly affecting eligibility and documentation requirements for CO-08 voters.[9][10]",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-co08-auto",
-      "startedAt": "2026-07-22T06:26:07.502Z",
-      "completedAt": "2026-07-22T06:26:45.954Z",
+      "id": "run-2026-07-29-co08-auto",
+      "startedAt": "2026-07-29T06:28:25.236Z",
+      "completedAt": "2026-07-29T06:29:06.696Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 1,
+      "sourcesChecked": 14,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for CO-08. Sources checked: 16. LLM verifications: 11. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for CO-08. Sources checked: 14. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:26:45.954Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:29:06.696Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
