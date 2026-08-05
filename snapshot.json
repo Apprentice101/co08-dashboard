@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:29:06.696Z",
-  "exportedAt": "2026-07-29T06:53:15.143Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:24:53.891Z",
+  "exportedAt": "2026-08-05T06:46:59.844Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1000,20 +1000,30 @@
         "relevanceSummary": "ABC News describes the SAVE America Act, a GOP-backed proposal that would require voter ID at the ballot box and documentary proof of U.S. citizenship to register for federal elections, directing states to pull data from sources like Social Security records to verify citizenship and to remove noncitizens from voter rolls.[9][10] If passed, Colorado’s registration procedures and voter-roll management would change for federal races, directly affecting eligibility and documentation requirements for CO-08 voters.[9][10]",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0cw5kv7",
+        "headline": "Federal judge rejects DOJ bid to force Colorado to hand over voter information",
+        "sourceName": "Colorado Politics",
+        "url": "https://www.coloradopolitics.com/2026/08/04/federal-judge-rejects-doj-bid-to-force-colorado-to-hand-over-voter-information/",
+        "publishedAt": "2026-08-04",
+        "relevanceSummary": "A U.S. District Court judge dismissed the Department of Justice lawsuit seeking unredacted Colorado voter data, including full names, dates of birth, addresses, and driver’s license numbers, affirming how Colorado may protect voter registration information and data privacy statewide.[4] This ruling directly affects how voter rolls are managed and safeguarded for all Colorado voters, including those in CO-08.",
+        "tag": "legal",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-co08-auto",
-      "startedAt": "2026-07-29T06:28:25.236Z",
-      "completedAt": "2026-07-29T06:29:06.696Z",
+      "id": "run-2026-08-05-co08-auto",
+      "startedAt": "2026-08-05T06:24:12.132Z",
+      "completedAt": "2026-08-05T06:24:53.891Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 7,
+      "sourcesChecked": 16,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for CO-08. Sources checked: 14. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-05 for CO-08. Sources checked: 16. LLM verifications: 11. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:29:06.696Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:24:53.891Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
