@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:24:53.891Z",
-  "exportedAt": "2026-08-05T06:46:59.844Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:28:02.282Z",
+  "exportedAt": "2026-08-12T05:46:22.756Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1010,20 +1010,50 @@
         "relevanceSummary": "A U.S. District Court judge dismissed the Department of Justice lawsuit seeking unredacted Colorado voter data, including full names, dates of birth, addresses, and driver’s license numbers, affirming how Colorado may protect voter registration information and data privacy statewide.[4] This ruling directly affects how voter rolls are managed and safeguarded for all Colorado voters, including those in CO-08.",
         "tag": "legal",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0goulft",
+        "headline": "Voters spared as Senate recesses without passing SAVE America Act’s voter ID measure",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/voters-spared-as-senate-recesses-without-passing-save-america-acts-voter-id-measure/",
+        "publishedAt": "2026-08-09",
+        "relevanceSummary": "This report explains that the Senate did not pass the SAVE America Act’s voter-ID provisions, which would have required photo ID to vote and tightened mail-ballot rules. Because CO-08 voters are Colorado voters, the failed federal push is relevant to understanding whether any national ID changes will affect their ballots.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0makgvg",
+        "headline": "Senate Democrats vote against bill requiring photo ID to cast ballots",
+        "sourceName": "Just the News",
+        "url": "https://justthenews.com/government/congress/senate-democrats-vote-against-bill-requiring-photo-id-cast-ballots",
+        "publishedAt": "2026-08-09",
+        "relevanceSummary": "This federal election-ID proposal would have required photo identification to vote and a copy of ID for mail ballots, changes that would apply to Colorado voters in CO-08 if enacted. The Senate failed to advance the bill on August 8, so current Colorado voting procedures remain in place for now.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0c3o7br",
+        "headline": "Colorado Democrats urge House speaker to allow vote on congressional stock trading ban",
+        "sourceName": "Sentinel Colorado",
+        "url": "https://sentinelcolorado.com/state-and-region-news/colorado-democrats-urge-house-speaker-to-allow-vote-on-congressional-stock-trading-ban/",
+        "publishedAt": "2026-08-05",
+        "relevanceSummary": "The article notes that Republicans attached voter-ID requirements to a House measure, including specific acceptable IDs such as a driver’s license, passport, military ID, or tribal ID. Although the story is primarily about stock trading legislation, the election-procedure component would matter to CO-08 voters because it concerns federal voting rules.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-co08-auto",
-      "startedAt": "2026-08-05T06:24:12.132Z",
-      "completedAt": "2026-08-05T06:24:53.891Z",
+      "id": "run-2026-08-12-co08-auto",
+      "startedAt": "2026-08-12T05:27:32.035Z",
+      "completedAt": "2026-08-12T05:28:02.282Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 1,
+      "sourcesChecked": 14,
+      "updatesCreated": 3,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for CO-08. Sources checked: 16. LLM verifications: 11. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-12 for CO-08. Sources checked: 14. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:24:53.891Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:28:02.282Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
