@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:28:02.282Z",
-  "exportedAt": "2026-08-12T05:46:22.756Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T04:34:36.150Z",
+  "exportedAt": "2026-08-19T05:06:33.524Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -124,7 +124,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-08-19",
         "confidence": "high",
         "notes": "AdamsVotes.com portal; phone: 720-523-6500; email: adams.elections@adamscountyco.gov"
       },
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1040,20 +1040,60 @@
         "relevanceSummary": "The article notes that Republicans attached voter-ID requirements to a House measure, including specific acceptable IDs such as a driver’s license, passport, military ID, or tribal ID. Although the story is primarily about stock trading legislation, the election-procedure component would matter to CO-08 voters because it concerns federal voting rules.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0sdwyq8",
+        "headline": "Colorado ballot questions, meant to keep special interests in check, are increasingly created by them",
+        "sourceName": "The Colorado Sun",
+        "url": "https://coloradosun.com/2026/08/18/colorado-ballot-questions-are-increasingly-created-by-them",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "The Colorado Sun reports that statewide ballot initiatives for 2026 are undergoing signature-checking by the Colorado Secretary of State’s Office through Sept. 2, which determines which measures qualify for the November ballot; this statewide ballot-access and verification process affects what CO-08 voters will see on their general-election ballots.[15]",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-04cndos",
+        "headline": "Elections to notify voters about signature updates",
+        "sourceName": "Mesa County Elections",
+        "url": "https://www.mesacounty.us/news/elections/elections-notify-voters-about-signature-updates",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "Mesa County Elections will contact active and pre-registered voters ages 17–25 who have fewer than one reference signature on file in Colorado’s statewide voter-registration database, instructing them how to submit updated signature samples; this statewide rule (Election Rule 7.7.14) directly affects how young CO-08 voters’ mail ballots and signature-cure processes are validated.[7]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0q7k6hy",
+        "headline": "Colorado's Secretary of State randomly selects every ballot card audited after an election",
+        "sourceName": "KMS Newsroom",
+        "url": "https://kimmonson.com/news/colorado-risk-limiting-audit-state-selected-ballot-sample/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "KMS Newsroom explains that under Colorado Election Rules 10.3.3 and 10.4, the Secretary of State randomly selects ballot cards for post-election risk-limiting audits and canvass boards cannot certify official results until authorized, nor evaluate voter intent or eligibility including signature acceptance or rejection; these statewide procedures directly govern how CO-08 election results are audited and certified.[10]",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0rnha3t",
+        "headline": "Summary 2026 State Primary Election Dates",
+        "sourceName": "National Conference of State Legislatures",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publishedAt": "2026-08-12",
+        "relevanceSummary": "NCSL’s summary lists Colorado’s 2026 state primary date as June 30 under Colorado law, information that helps CO-08 voters understand the statewide election calendar and when candidate-nomination contests occur ahead of the November general election.[6]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-co08-auto",
-      "startedAt": "2026-08-12T05:27:32.035Z",
-      "completedAt": "2026-08-12T05:28:02.282Z",
+      "id": "run-2026-08-19-co08-auto",
+      "startedAt": "2026-08-19T04:33:41.564Z",
+      "completedAt": "2026-08-19T04:34:36.150Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 3,
+      "sourcesChecked": 15,
+      "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for CO-08. Sources checked: 14. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for CO-08. Sources checked: 15. LLM verifications: 8. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:28:02.282Z",
+    "NEXT_REFRESH_AT": "2026-08-26T04:34:36.150Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
