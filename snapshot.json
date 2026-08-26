@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:34:36.150Z",
-  "exportedAt": "2026-08-19T05:06:33.524Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T04:38:08.155Z",
+  "exportedAt": "2026-08-26T05:14:30.835Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1080,20 +1080,90 @@
         "relevanceSummary": "NCSL’s summary lists Colorado’s 2026 state primary date as June 30 under Colorado law, information that helps CO-08 voters understand the statewide election calendar and when candidate-nomination contests occur ahead of the November general election.[6]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0nxc7na",
+        "headline": "Colorado's top election official said fight over mail ballots not over",
+        "sourceName": "Colorado Public Radio",
+        "url": "https://www.cpr.org/2026/08/25/trump-executive-order-mail-ballots-colorado-impact/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "This article explains that Colorado law continues to require mailing a ballot to every eligible voter despite federal-level disputes, confirming that CO-08 voters will still receive mail ballots automatically and can rely on the state’s existing mail-ballot and voter-registration framework.[2] It matters for CO-08 because statewide mail-ballot rules and any federal challenges could affect how ballots are issued and processed for all Colorado voters.[2]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0r8u3u3",
+        "headline": "Colorado Establish 4.4% Cap on Individual and Corporate Income Tax Rates Initiative (2026)",
+        "sourceName": "Ballotpedia",
+        "url": "https://ballotpedia.org/Colorado_Establish_4.4%25_Cap_on_Individual_and_Corporate_Income_Tax_Rates_Initiative_(2026)",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "Ballotpedia’s coverage of a statewide 2026 initiative includes detailed information on Colorado voting procedures, noting that polling places are open 7 a.m.–7 p.m., that voters can register up to and including Election Day, and that first-time mail-in voters may need to include a photocopy of acceptable identification with their ballot.[11] This matters for CO-08 voters because these rules govern voter registration timelines, polling hours, acceptable ID documents, and ID-copy requirements for mail ballots across the entire state.[11]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0tc3wbj",
+        "headline": "Election officials in Colorado assure voters that mail-in ballots remain secure and unchanged despite national controversy",
+        "sourceName": "CBS News Colorado",
+        "url": "https://www.cbsnews.com/colorado/news/mail-in-ballot-colorado-midterm-election/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "Colorado election officials, including the Denver Clerk and Recorder, state that they do not expect procedural changes for the upcoming general election and that voters will continue to receive their mail ballots and vote as normal.[8] This reassures CO-08 voters that mail-in ballot procedures, drop-box usage, and overall election administration in Colorado remain stable heading into November.[8]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0utl6ue",
+        "headline": "Attorney General Phil Weiser issues statement on Supreme Court ruling affecting Trump mail-ballot executive order",
+        "sourceName": "Colorado Attorney General’s Office",
+        "url": "https://coag.gov/press-releases/weiser-statement-on-scotus-ruling-on-mail-ballot-executive-order/",
+        "publishedAt": "2026-08-24",
+        "relevanceSummary": "The Colorado Attorney General comments on a U.S. Supreme Court decision related to a Trump mail-ballot executive order, signaling how Colorado will interpret and implement federal directives concerning mail ballots.[13] This has procedural implications for CO-08 voters because statewide legal responses to federal actions can influence how their mail ballots are administered and protected in the November general.[13]",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0ydcbio",
+        "headline": "Despite threats from White House, Colorado election officials predict little change to 2026 general election",
+        "sourceName": "The Denver Post",
+        "url": "https://www.denverpost.com/2026/08/22/trump-voter-fraud-mail-ballots-colorado-election/",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "Colorado election overseers report that ballots will still be mailed, voter rolls will not be purged, and votes will be tallied as usual, even amid federal pressure, and that the state is mailing ballots earlier and bolstering physical and cybersecurity for county clerks.[1] This is directly relevant for CO-08 voters because it clarifies that statewide election-administration and mail-ballot procedures they rely on are expected to remain intact and even gain added security protections.[1]",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-04rkf1v",
+        "headline": "2026 Midterm Voting Guide: Registration, Early Voting and Poll Hours",
+        "sourceName": "U.S. Presidential Election News (Election Central)",
+        "url": "https://www.uspresidentialelectionnews.com/2026-midterm-voting-guide/",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "The guide lists Colorado’s registration deadlines, confirms that ballots are mailed automatically and must be received by 7 p.m. on Election Day, and notes that vote centers are available and polls are open from 7 a.m. to 7 p.m.[12] This statewide information applies directly to CO-08 voters, clarifying key deadlines, mail-ballot return requirements, and in‑person voting hours they must follow for the November general.[12]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0vi1ked",
+        "headline": "County Clerks and voter centers are great sources for local election-related information",
+        "sourceName": "Colorado Secretary of State (social media post)",
+        "url": "https://x.com/COSecofState/status/2090816853186617446",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "The Colorado Secretary of State reminds voters that county clerks and voter service centers can help them register to vote and answer questions about the upcoming general election, directing them to the state’s GoVoteColorado portal.[6] This is a practical voter resource for CO-08, whose residents use the same statewide registration system and local clerks to handle voter registration, ballot issues, and polling-location inquiries.[6]",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-co08-auto",
-      "startedAt": "2026-08-19T04:33:41.564Z",
-      "completedAt": "2026-08-19T04:34:36.150Z",
+      "id": "run-2026-08-26-co08-auto",
+      "startedAt": "2026-08-26T04:37:05.349Z",
+      "completedAt": "2026-08-26T04:38:08.155Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 4,
+      "sourcesChecked": 14,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for CO-08. Sources checked: 15. LLM verifications: 8. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for CO-08. Sources checked: 14. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:34:36.150Z",
+    "NEXT_REFRESH_AT": "2026-09-02T04:38:08.155Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
