@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T04:38:08.155Z",
-  "exportedAt": "2026-08-26T05:14:30.835Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:23:14.424Z",
+  "exportedAt": "2026-09-02T09:08:23.734Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1150,20 +1150,100 @@
         "relevanceSummary": "The Colorado Secretary of State reminds voters that county clerks and voter service centers can help them register to vote and answer questions about the upcoming general election, directing them to the state’s GoVoteColorado portal.[6] This is a practical voter resource for CO-08, whose residents use the same statewide registration system and local clerks to handle voter registration, ballot issues, and polling-location inquiries.[6]",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-02615ae",
+        "headline": "Voter ID for mail voting qualifies for November ballot in Colorado",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/voter-id-for-mail-voting-qualifies-for-november-ballot-in-colorado/",
+        "publishedAt": "2026-08-31",
+        "relevanceSummary": "Democracy Docket describes a Colorado proposal that would require mail voters to include the last four digits of a Social Security number, driver’s license, or REAL ID on the outside of their ballot envelope and explains that ballots with unmatched numbers may be cured or invalidated, outlining potential changes to mail-ballot ID and ballot-rejection risks that would apply to CO-08 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0izor6o",
+        "headline": "Colorado voter ID and mail voting rules and acceptable IDs",
+        "sourceName": "VoteRiders",
+        "url": "https://voteriders.org/states/colorado/",
+        "publishedAt": "2026-08-30",
+        "relevanceSummary": "This voter resource summarizes current Colorado rules requiring ID for in-person voting but not for standard mail ballots, lists acceptable identification documents, explains that voters may be notified if they need to provide ID with a ballot, and notes provisional-ballot procedures, offering CO-08 voters an up-to-date guide to voter-ID and mail-voting requirements ahead of November.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-00uqszt",
+        "headline": "Colorado voter ID and registration deadlines overview",
+        "sourceName": "Alto",
+        "url": "https://alto.gab.com/politics/voter-id/colorado",
+        "publishedAt": "2026-08-29",
+        "relevanceSummary": "This overview explains that Colorado generally requests identification for voters, that photo ID is not required, and that voters without standard ID may use fallback options such as an affidavit, while also directing voters to official registration portals, providing CO-08 voters with practical information about voter-ID expectations and registration processes.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0qqm2un",
+        "headline": "Colorado measure adding new ID checks to mail-in voting qualifies for November ballot",
+        "sourceName": "Colorado Politics",
+        "url": "https://www.coloradopolitics.com/2026/08/28/colorado-measure-adding-new-id-checks-to-mail-in-voting-qualifies-for-november-ballot/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "This piece reports that a proposed measure to add ID checks for mail-in voting has officially qualified for Colorado’s November ballot, noting that current law relies on signature verification but would add new ID requirements for mail voters while also describing existing ID rules for in-person and first-time mail voters, information that directly informs CO-08 voters about possible upcoming rule changes.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-06z47i5",
+        "headline": "Colorado mail ballot voter ID initiative becomes seventh voter ID measure certified for 2026—the most in a single year",
+        "sourceName": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/08/28/colorado-mail-ballot-voter-id-initiative-becomes-seventh-voter-id-measure-certified-for-2026-the-most-in-a-single-year/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Ballotpedia details Initiative 362, which would require Colorado mail voters to provide both a signature and an identification number such as the last four digits of a Social Security number or a Colorado REAL ID number, and explains that ballots with ID discrepancies cannot be counted until voters provide a copy of their ID, directly affecting mail-ballot ID and cure procedures for CO-08 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0vatnv9",
+        "headline": "Colorado voters will be asked to force people to add ID info to mail ballots under November initiative",
+        "sourceName": "The Colorado Sun",
+        "url": "https://coloradosun.com/2026/08/26/mail-ballot-id-colorado-initiative/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "This article explains Initiative 362, a statewide constitutional amendment that would require Colorado mail voters to include the last four digits of their Social Security number or their full Colorado driver’s license or state ID number on mail ballot envelopes, and describes how ballots without this information could be rejected or cured, which would directly change mail-ballot and ID procedures for CO-08 voters if approved.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-002jfmp",
+        "headline": "Federal judge pauses implementation of new mail ballot USPS rule affecting Colorado’s all-mail elections",
+        "sourceName": "Colorado Public Radio (CPR News)",
+        "url": "https://www.cpr.org/2026/08/26/colorado-lawsiut-postal-service-mail-ballots/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "CPR reports that a federal judge has paused a new USPS ballot-mail rule, with Colorado officials emphasizing that state law still requires all eligible voters to receive a mail ballot and that mail voting remains overwhelmingly popular, reassuring CO-08 voters that the state’s mail-ballot process and delivery expectations for November remain unchanged for now.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0emdj08",
+        "headline": "Mail ballots will go out as normal despite Supreme Court ruling, Colorado officials say",
+        "sourceName": "Colorado Newsline",
+        "url": "https://coloradonewsline.com/2026/08/26/mail-ballots-supreme-court/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "Colorado election officials explain that a recent federal court decision about USPS ballot-mail rules will not change Colorado’s all-mail system for the November election, emphasizing that CO-08 voters do not need to complete any new federal process and that existing verification, security, and audit procedures remain in place along with standard mailing and request timelines.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-co08-auto",
-      "startedAt": "2026-08-26T04:37:05.349Z",
-      "completedAt": "2026-08-26T04:38:08.155Z",
+      "id": "run-2026-09-02-co08-auto",
+      "startedAt": "2026-09-02T08:22:01.940Z",
+      "completedAt": "2026-09-02T08:23:14.424Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 7,
+      "sourcesChecked": 16,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for CO-08. Sources checked: 14. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for CO-08. Sources checked: 16. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T04:38:08.155Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:23:14.424Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
