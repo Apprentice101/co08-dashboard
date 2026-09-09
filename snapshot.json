@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-09-09",
   "updatedAt": "2026-09-09T08:37:37.470Z",
-  "exportedAt": "2026-09-09T09:18:37.324Z",
+  "exportedAt": "2026-09-09T20:53:39.153Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -87,6 +87,30 @@
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
         "lastVerified": "2026-06-12",
+        "confidence": "high"
+      },
+      "src-co-sos-acceptable-id": {
+        "id": "src-co-sos-acceptable-id",
+        "name": "Colorado Secretary of State — Acceptable Forms of Identification",
+        "short": "CO SOS Acceptable ID",
+        "url": "https://www.sos.state.co.us/pubs/elections/vote/acceptableFormsOfID.html",
+        "publisher": "Colorado Secretary of State (Jena Griswold)",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-09-09",
+        "lastVerified": "2026-09-09",
+        "confidence": "high"
+      },
+      "src-co-sos-election-day-faq": {
+        "id": "src-co-sos-election-day-faq",
+        "name": "Colorado Secretary of State — Election Day FAQ",
+        "short": "CO SOS Election Day FAQ",
+        "url": "https://www.sos.state.co.us/pubs/elections/FAQs/ElectionDay.html",
+        "publisher": "Colorado Secretary of State (Jena Griswold)",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-09-09",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-co-sos-press-release-jun8": {
@@ -533,19 +557,21 @@
       },
       {
         "id": "rule-co-voter-id-in-person",
-        "topic": "Voter ID requirements — in-person voting",
-        "currentRule": "Voters voting in person at a VSPC must provide a valid form of identification: Colorado driver's license, Colorado ID card, U.S. passport, military ID, or other government-issued photo ID. First-time voters who registered by mail may also need to provide proof of address.",
+        "topic": "Voter ID requirements — in-person voting (photo ID is NOT required)",
+        "currentRule": "Colorado accepts BOTH photo and non-photo forms of identification to vote in person at a Voter Service and Polling Center (VSPC). Photo IDs accepted include: a valid Colorado driver's license or Colorado ID card issued by the Department of Revenue; a valid U.S. passport; a valid U.S. government or Colorado government employee photo ID (federal, state, county, municipal); a valid FAA pilot's license; a valid U.S. military photo ID; a valid Colorado higher-education student photo ID; a valid VA veteran photo ID; and a valid tribal photo ID. Non-photo documents also accepted include: a copy of a current (within the last 60 days) utility bill, bank statement, government check, paycheck, or other government document showing the voter's name and address; a Certificate of Degree of Indian or Alaskan Native Blood; a valid Medicare or Medicaid card; a certified copy of a U.S. birth certificate; or certified documentation of naturalization. Any ID showing an address must show a Colorado address. Mail ballot voters do NOT need to show ID to return their ballot; however, first-time mail voters who registered by mail may need to include a photocopy of their ID when returning their first mail ballot.",
         "status": "active",
-        "whyItMatters": "CO-08 voters using a VSPC for in-person voting or same-day registration must bring an acceptable ID. Mail ballot voters do not need to show ID.",
+        "whyItMatters": "CO-08 voters going to a VSPC in person do not need to bring a photo ID. Framing ID as photo-only can discourage eligible voters who possess an acceptable non-photo document (e.g., a utility bill, bank statement, Medicare card, or birth certificate). The full statutory list is broader than most voters realize.",
         "governingLevel": "statewide",
         "sourceIds": [
+          "src-co-sos-acceptable-id",
+          "src-co-sos-election-day-faq",
           "src-co-sos-elections",
           "src-co-rev-stat"
         ],
-        "confidence": "unconfirmed",
-        "lastVerified": "2026-06-12",
-        "needsReview": true,
-        "detail": "C.R.S. § 1-1-104(19.5). No ID required to return a mail ballot by mail or drop box."
+        "confidence": "high",
+        "lastVerified": "2026-09-09",
+        "needsReview": false,
+        "detail": "C.R.S. § 1-1-104(19.5). Colorado SOS explicitly does not require identification to be photographic. The one narrow exclusion is a Colorado DL or state ID issued to individuals who are not lawfully present or are temporarily lawfully present under Part 5 of Article 2 of Title 42, C.R.S. Documents produced by Colorado's statewide voter registration system are also not accepted. Mail-ballot voters do not present ID at return, but a first-time voter who registered by mail may need to include an ID photocopy with the first mail ballot returned."
       },
       {
         "id": "rule-co-unaffiliated-voters-primary",
@@ -793,6 +819,22 @@
         "severity": "medium",
         "reviewState": "new",
         "visibility": "internal_only"
+      },
+      {
+        "id": "upd-co08-004",
+        "title": "Voter ID rule corrected — Colorado accepts both photo AND non-photo IDs at the polls",
+        "fieldChanged": "rule-co-voter-id-in-person",
+        "oldValue": "Rule enumerated only photo IDs (CO driver's license, state ID, U.S. passport, military ID, or other government-issued photo ID), implying photo-only.",
+        "newValue": "Rule now enumerates the full Colorado SOS acceptable-ID list, including non-photo documents accepted at the VSPC: a current (within 60 days) utility bill, bank statement, government check, paycheck, or other government document showing the voter's name and Colorado address; Certificate of Degree of Indian or Alaskan Native Blood; a valid Medicare or Medicaid card; a certified copy of a U.S. birth certificate; and certified documentation of naturalization. Source: https://www.sos.state.co.us/pubs/elections/vote/acceptableFormsOfID.html",
+        "sourceIds": [
+          "src-co-sos-acceptable-id",
+          "src-co-sos-election-day-faq"
+        ],
+        "detectedAt": "2026-09-09T20:30:00Z",
+        "severity": "high",
+        "reviewState": "reviewed",
+        "visibility": "public",
+        "changeKind": "correction"
       }
     ],
     "CONFLICTS": [
