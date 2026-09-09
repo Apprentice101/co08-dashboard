@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T08:23:14.424Z",
-  "exportedAt": "2026-09-02T09:08:23.734Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T08:37:37.470Z",
+  "exportedAt": "2026-09-09T09:18:37.324Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -150,7 +150,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1230,20 +1230,100 @@
         "relevanceSummary": "Colorado election officials explain that a recent federal court decision about USPS ballot-mail rules will not change Colorado’s all-mail system for the November election, emphasizing that CO-08 voters do not need to complete any new federal process and that existing verification, security, and audit procedures remain in place along with standard mailing and request timelines.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-00vfmvk",
+        "headline": "14 measures will appear on Colorado's statewide ballot in 2026",
+        "sourceName": "Colorado Newsline",
+        "url": "https://coloradonewsline.com/2026/09/08/14-measures-will-appear-on-colorados-statewide-ballot-in-2026/",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "This overview notes that Amendment 84 would replace Colorado’s signature-based mail ballot verification with a requirement that voters provide the last four digits of a Social Security or driver’s license number, directly affecting mail ballot ID procedures for CO-08 voters if approved.[12]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0mw62cp",
+        "headline": "Colorado's 2026 General Election Ballot has been certified: What you need to know",
+        "sourceName": "KKTV",
+        "url": "https://www.kktv.com/2026/09/07/colorados-2026-general-election-ballot-has-been-certified-what-you-need-know/",
+        "publishedAt": "2026-09-07",
+        "relevanceSummary": "This piece lays out key statewide deadlines for mailing of ballots, opening of drop boxes and voter service centers, and the last day to register and still receive a mail ballot, which apply directly to CO-08 voters because Colorado runs uniform statewide election procedures.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-00y8lsk",
+        "headline": "Judge puts Colorado Libertarians’ secretary of state candidate on ballot after party’s 1st nominee drops out",
+        "sourceName": "Colorado Politics",
+        "url": "https://www.coloradopolitics.com/2026/09/04/judge-puts-colorado-libertarians-secretary-of-state-candidate-on-ballot-after-partys-1st-nominee-drops-out/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This story covers a Denver judge’s ruling ordering that a Libertarian candidate for secretary of state be placed on the November ballot after the original nominee withdrew, clarifying candidate qualification and ballot-access rules for a statewide office that oversees election procedures affecting CO-08.[9]",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0lidqrp",
+        "headline": "Pre-Processing Timelines, Update Fall 2026",
+        "sourceName": "Election Innovation Lab",
+        "url": "https://electioninnovation.org/research/pre-processing-timelines/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This research update summarizes Colorado’s rules for when counties may start processing and scanning mail ballots, noting that larger counties must begin no later than four days before Election Day, which informs CO-08 voters about when their mailed ballots may be handled and counted.[5]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-012ryvr",
+        "headline": "Weekly Brew: September 4, 2026",
+        "sourceName": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/09/04/weekly-brew-september-4-2026/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This article describes Colorado Initiative 362, which would add an ID-number requirement to mail ballots by requiring voters to provide a Social Security or Colorado ID-related number that election officials verify against the statewide registration database, a potential major change to mail voting procedures for all Colorado voters including those in CO-08.[3]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0nt3y1m",
+        "headline": "Colorado prepares to mail ballots as usual despite order",
+        "sourceName": "The Daily Bo Snerdley / The Center Square",
+        "url": "https://thedailybs.com/2026/09/03/colorado-prepares-to-mail-ballots-as-usual-despite-order/",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "This piece reports that Colorado officials, including county clerks, plan to follow normal ballot-mailing procedures for the November election despite ongoing litigation about federal postal rules, signaling continuity in mail-ballot processes for CO-08 voters for now.[11]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0qbq2ms",
+        "headline": "Election officials raise alarm over implementing new mail voting rules before midterms: \"Virtually impossible\"",
+        "sourceName": "CBS News Colorado",
+        "url": "https://www.cbsnews.com/colorado/news/mail-voting-rules-usps-election-officials-midterms/",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "This article details how new USPS ballot-mail rules would require Colorado election officials to use individualized barcodes and submit voter data to a federal portal, affecting how ballots are mailed and tracked statewide and potentially impacting ballot return envelopes for CO-08 voters.[13]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0glf1as",
+        "headline": "Colorado election official says state expects secure election despite federal uncertainty",
+        "sourceName": "KUNC",
+        "url": "https://www.kunc.org/politics/2026-09-03/colorado-election-official-says-state-expects-secure-election-despite-federal-uncertainty",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "This report explains how Colorado election officials plan to maintain secure elections and deliver ballots even if federal changes affect mail delivery, including potential use of county ballot distribution centers, which would shape how CO-08 voters receive and return ballots.[15]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-co08-auto",
-      "startedAt": "2026-09-02T08:22:01.940Z",
-      "completedAt": "2026-09-02T08:23:14.424Z",
+      "id": "run-2026-09-09-co08-auto",
+      "startedAt": "2026-09-09T08:36:22.082Z",
+      "completedAt": "2026-09-09T08:37:37.470Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
+      "sourcesChecked": 14,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for CO-08. Sources checked: 16. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-09 for CO-08. Sources checked: 14. LLM verifications: 8. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T08:23:14.424Z",
+    "NEXT_REFRESH_AT": "2026-09-16T08:37:37.470Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
