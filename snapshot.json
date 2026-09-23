@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:04:52.775Z",
-  "exportedAt": "2026-09-16T09:50:10.544Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:05:31.816Z",
+  "exportedAt": "2026-09-23T09:36:28.399Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-co-sos-election-day-faq": {
@@ -174,7 +174,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1432,20 +1432,100 @@
         "relevanceSummary": "Reports that Colorado Secretary of State Jena Griswold has officially certified the 2026 general-election ballot, including 14 statewide measures, confirming for CO-08 voters that the statewide ballot content and associated administration for November are now finalized.",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0dr4zc5",
+        "headline": "REQUIRE VOTER IDENTIFICATION FOR MAIL BALLOTS",
+        "sourceName": "Independence Institute",
+        "url": "https://i2i.org/2026-voter-guide/",
+        "publishedAt": "2026-09-23",
+        "relevanceSummary": "This Colorado voter guide describes a proposed constitutional amendment that would require additional identifying information with mail ballots, including the last four digits of a Social Security number or a Colorado Real ID number. If enacted and placed on the ballot, the proposal could change mail-ballot procedures for CO-08 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0vgamkp",
+        "headline": "Lawsuit seeks to strike graduated tax measure Amendment 87 from ballot",
+        "sourceName": "The Denver Gazette",
+        "url": "https://www.denvergazette.com/2026/09/22/graduated-tax-measure-faces-lawsuit-seeking-removal-from-november-ballot/",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "A lawsuit seeks removal of a statewide measure from Colorado's November ballot. Because the challenge concerns ballot qualification for a statewide general-election measure, it could affect the contents of ballots received by CO-08 voters.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0yulbk7",
+        "headline": "Boulder County to test ballots and voting system for upcoming election",
+        "sourceName": "Boulder County",
+        "url": "https://bouldercounty.gov/news/boulder-county-to-test-ballots-and-voting-system-for-upcoming-election-2/",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "Boulder County announced testing of ballots and its voting system before the upcoming election. Although Boulder County is outside CO-08, the logic-and-accuracy testing is a relevant example of Colorado county election administration and security procedures.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0nqjzb8",
+        "headline": "Here's your election-ready checklist for the November 2026 general election",
+        "sourceName": "Douglas County",
+        "url": "https://www.douglasco.gov/heres-your-election-ready-checklist-for-the-november-2026-general-election/",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "Douglas County's checklist says ballots will be mailed beginning October 2, provides BallotTrax enrollment information, and lists drop-box and voter-service-center availability. The county-specific logistics are outside CO-08, but they reflect Colorado's statewide mail-ballot and in-person assistance framework.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-07pp7m2",
+        "headline": "2026 Statewide Ballot Information Booklet",
+        "sourceName": "Colorado General Assembly",
+        "url": "https://content.leg.colorado.gov/publications/2026-statewide-ballot-information-booklet",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "Colorado's official statewide ballot-information booklet confirms that the general election will be held November 3, 2026. It is directly relevant to CO-08 voters as the official source for statewide ballot measures and election information.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0ocfuyz",
+        "headline": "El Paso County ballots sent to thousands of military, overseas voters",
+        "sourceName": "The Gazette",
+        "url": "https://gazette.com/2026/09/18/el-paso-county-ballots-sent-to-thousands-of-military-overseas-voters-3/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "El Paso County election officials sent ballots to military and overseas voters and reported that ballots for other voters will be sent October 5. The article also directs Colorado voters to the Secretary of State's website to register, check registration, or update registration information.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-091eymk",
+        "headline": "How to register to vote in Colorado, plus ballot deadlines you need to know",
+        "sourceName": "HPPR",
+        "url": "https://www.hppr.org/hppr-news/2026-09-17/how-to-register-to-vote-in-colorado-plus-ballot-deadlines-you-need-to-know",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "This statewide voter-information article explains Colorado registration and identification requirements, including use of a driver's-license number, the last four digits of a Social Security number, or another valid ID. It says voters must register by October 26 to receive a mail ballot, while same-day registration remains available at voter service and polling centers through Election Day.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0s27oxp",
+        "headline": "Colorado Urges BallotTrax Signup Before Mailings Begin",
+        "sourceName": "The American Quorum",
+        "url": "https://www.theamericanquorum.com/state-news-colorado-2026-09-17-b/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "Colorado election officials are urging voters to sign up for BallotTrax before ballots are mailed. The article also reports that ballots for active voters are scheduled to be mailed October 2–9, with October 26 as the registration deadline for receiving a ballot by mail and November 3 at 7 p.m. as the submission deadline.",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-co08-auto",
-      "startedAt": "2026-09-16T09:03:45.566Z",
-      "completedAt": "2026-09-16T09:04:52.775Z",
+      "id": "run-2026-09-23-co08-auto",
+      "startedAt": "2026-09-23T09:04:21.886Z",
+      "completedAt": "2026-09-23T09:05:31.816Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for CO-08. Sources checked: 14. LLM verifications: 8. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for CO-08. Sources checked: 14. LLM verifications: 7. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:04:52.775Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:05:31.816Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
