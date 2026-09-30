@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:05:31.816Z",
-  "exportedAt": "2026-09-23T09:36:28.399Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:12:35.419Z",
+  "exportedAt": "2026-09-30T10:36:39.315Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -174,7 +174,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1512,20 +1512,90 @@
         "relevanceSummary": "Colorado election officials are urging voters to sign up for BallotTrax before ballots are mailed. The article also reports that ballots for active voters are scheduled to be mailed October 2–9, with October 26 as the registration deadline for receiving a ballot by mail and November 3 at 7 p.m. as the submission deadline.",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0v4ujl2",
+        "headline": "Colorado voter guide to the 2026 midterm election: Everything you need to know before November",
+        "sourceName": "KOAA News5",
+        "url": "https://www.koaa.com/voterguide",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The statewide guide tells Colorado voters that ballots begin arriving soon, that mailed ballots should be returned by Oct. 26, and that later returns should use a drop box, voter center, or in-person voting location—procedures applicable to CO-08 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-09aon39",
+        "headline": "Election Day is Nov. 3. Here's what you need to know about Colorado's candidates, ballot measures and how to vote.",
+        "sourceName": "The Colorado Sun",
+        "url": "https://coloradosun.com/2026/09/29/colorado-election-guide-2026/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "This statewide voter guide applies directly to CO-08 voters and explains registration, the Oct. 26 mail-registration deadline, ballot-return options and deadlines, same-day registration, voting-center availability, acceptable in-person identification, and possible ID-copy requirements for first-time mail voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-01ittx8",
+        "headline": "Here's when Pueblo County ballots will be mailed for the 2026 election",
+        "sourceName": "Reuters",
+        "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_MT1USDAYNETCO91905759007?channel=fot610",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "Pueblo County’s announced schedule provides an example of Colorado county administration: military and overseas ballots were sent Sept. 18, while secure drop boxes and staged polling-center openings run through Election Day. County-level logistics may inform comparable planning for Colorado voters, though Pueblo is outside CO-08.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0w98mle",
+        "headline": "Major funders fuel Colorado ballot measure fights across the state",
+        "sourceName": "The Gazette",
+        "url": "https://gazette.com/2026/09/28/major-donors-fuel-colorado-ballot-measure-fights-across-the-state/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The article reports on Amendment 84, a proposed statewide requirement that mail voters submit identification in addition to a signature, including specified Social Security, Colorado driver’s-license, or REAL ID numbers. Any enacted change would apply to CO-08 voters.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-07o1hqi",
+        "headline": "Ballot Initiative 362: Mail Ballot Voter Identification",
+        "sourceName": "CPR News",
+        "url": "https://www.cpr.org/2026/09/25/vg-2026-initiative-362-mail-ballot-id/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "This statewide explainer says Initiative 362 would require the last four digits of a driver’s license or Social Security number alongside a signature on mail ballots; without passage, signature matching remains the verification method. The proposal is directly relevant to CO-08 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-09sp1fn",
+        "headline": "What Does Amendment 84 Mean for Douglas County? ID Numbers on Your Mail Ballot, and the Clerk Who Would Have to Run It",
+        "sourceName": "Discover Douglas County",
+        "url": "https://discoverdougco.com/news/what-does-amendment-84-mean-for-douglas-county",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "The article explains a proposed statewide constitutional change that would add an identification-number requirement to mail-ballot envelopes, describe cure notices for missing or incorrect information, and leave in-person ID procedures unchanged. The measure could affect CO-08 voters if enacted.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0okucag",
+        "headline": "CPR News' voter guide to the 2026 midterm election",
+        "sourceName": "CPR News",
+        "url": "https://www.cpr.org/2026/09/24/vg-2026-colorado-midterm-election-voter-guide/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "This statewide guide covers online and same-day registration, ballot mailing to active registered voters, inactive-voter requirements, drop boxes, mail deadlines, in-person ID, and possible photocopies of identification for first-time mail voters in Colorado, including CO-08.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-co08-auto",
-      "startedAt": "2026-09-23T09:04:21.886Z",
-      "completedAt": "2026-09-23T09:05:31.816Z",
+      "id": "run-2026-09-30-co08-auto",
+      "startedAt": "2026-09-30T10:11:41.507Z",
+      "completedAt": "2026-09-30T10:12:35.419Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 8,
+      "sourcesChecked": 15,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for CO-08. Sources checked: 14. LLM verifications: 7. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for CO-08. Sources checked: 15. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:05:31.816Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:12:35.419Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
