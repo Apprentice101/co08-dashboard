@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-30",
-  "updatedAt": "2026-09-30T10:12:35.419Z",
-  "exportedAt": "2026-09-30T10:36:39.315Z",
+  "dataAsOf": "2026-10-07",
+  "updatedAt": "2026-10-07T10:47:50.230Z",
+  "exportedAt": "2026-10-07T11:11:43.317Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-co-sos-election-day-faq": {
@@ -174,7 +174,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1582,20 +1582,100 @@
         "relevanceSummary": "This statewide guide covers online and same-day registration, ballot mailing to active registered voters, inactive-voter requirements, drop boxes, mail deadlines, in-person ID, and possible photocopies of identification for first-time mail voters in Colorado, including CO-08.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0stzzae",
+        "headline": "General Election information FAQs for Colorado voters",
+        "sourceName": "The Prowers Journal",
+        "url": "https://theprowersjournal.com/2026/10/general-election-information-faqs-for-colorado-voters/",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "Provides statewide Colorado guidance on mailed ballots, voter service and polling centers, polling-location lookup, and county drop boxes, which applies to CO-08 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-064rmmw",
+        "headline": "Colorado begins mailing out ballots for November election: here are the important deadlines",
+        "sourceName": "CBS News Colorado",
+        "url": "https://www.cbsnews.com/colorado/news/colorado-begins-mailing-ballots-november-election-important-deadlines/",
+        "publishedAt": "2026-10-04",
+        "relevanceSummary": "Details statewide Colorado deadlines for registration, ballot mailing, drop boxes, voting centers, ballot receipt, eligibility, and acceptable registration identification.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0e441vn",
+        "headline": "Aspen Public Radio's 2026 Midterm Election Guide",
+        "sourceName": "Aspen Public Radio",
+        "url": "https://www.aspenpublicradio.org/government/2026-10-04/aspen-public-radios-2026-midterm-election-guide",
+        "publishedAt": "2026-10-04",
+        "relevanceSummary": "Summarizes statewide key dates for drop boxes, early-voting centers, mail-ballot returns, and polling hours; these Colorado procedures apply to CO-08 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-04dxp5b",
+        "headline": "Colorado voters will start receiving mail ballots in the coming week",
+        "sourceName": "Colorado Politics",
+        "url": "https://www.coloradopolitics.com/2026/10/02/colorado-voters-will-start-receiving-mail-ballots-in-the-coming-week-4/",
+        "publishedAt": "2026-10-02",
+        "relevanceSummary": "Reports statewide ballot-mailing deadlines, the number and timing of drop boxes and voter centers, the October 26 registration deadline for mailed ballots, and the 7 p.m. Election Day submission rule.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0ozutts",
+        "headline": "Ballots are headed out, here's what you need to know",
+        "sourceName": "Colorado Public Radio",
+        "url": "https://www.cpr.org/2026/10/02/what-you-need-to-know-ballots/",
+        "publishedAt": "2026-10-02",
+        "relevanceSummary": "Provides statewide guidance that Colorado is an all-mail-ballot state, ballots must arrive by 7 p.m. Election Day, drop boxes open October 12, and voting centers open October 19.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0s1xzif",
+        "headline": "Your Douglas County Ballot Is in the Mail: How to Fill It Out, Where to ...",
+        "sourceName": "Discover Douglas County",
+        "url": "https://discoverdougco.com/news/douglas-county-ballot-in-the-mail-2026",
+        "publishedAt": "2026-10-02",
+        "relevanceSummary": "Describes Colorado mail-ballot completion requirements, including signing the return envelope and including identification when required, and gives county drop-box operating details. Douglas County is outside CO-08, so the district relevance is indirect.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-04nwn02",
+        "headline": "Ballots are on their way to Colorado voters",
+        "sourceName": "The Denver Post",
+        "url": "https://www.denverpost.com/2026/10/02/colorado-ballot-mail-2026-election/",
+        "publishedAt": "2026-10-02",
+        "relevanceSummary": "Explains Colorado registration and ballot deadlines, the 7 p.m. Election Day receipt requirement, drop-box and voting-center availability, and identification needed to register.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-06dcphk",
+        "headline": "Colorado counties are starting to mail ballots for November’s midterm election. Here’s what you need to know.",
+        "sourceName": "The Summit Daily News",
+        "url": "https://www.summitdaily.com/news/colorado-mail-ballots-november-midterm-election/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "Explains Colorado registration and mail-ballot deadlines, options to vote by mail, drop box, or voting center, the recommended mail-return date, and Election Day polling hours.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-30-co08-auto",
-      "startedAt": "2026-09-30T10:11:41.507Z",
-      "completedAt": "2026-09-30T10:12:35.419Z",
+      "id": "run-2026-10-07-co08-auto",
+      "startedAt": "2026-10-07T10:47:11.485Z",
+      "completedAt": "2026-10-07T10:47:50.230Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 7,
+      "sourcesChecked": 13,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-30 for CO-08. Sources checked: 15. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-07 for CO-08. Sources checked: 13. LLM verifications: 7. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-07T10:12:35.419Z",
+    "NEXT_REFRESH_AT": "2026-10-14T10:47:50.230Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
