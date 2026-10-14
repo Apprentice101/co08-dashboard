@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T10:47:50.230Z",
-  "exportedAt": "2026-10-07T11:11:43.317Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:13:17.936Z",
+  "exportedAt": "2026-10-14T09:31:18.992Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -122,7 +122,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-10-14",
         "confidence": "high",
         "notes": "Official press release confirming ballot mailing began June 8, 437 drop boxes, 137 VSPCs statewide for June 30, 2026 primary."
       },
@@ -148,7 +148,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-10-14",
         "confidence": "high",
         "notes": "AdamsVotes.com portal; phone: 720-523-6500; email: adams.elections@adamscountyco.gov"
       },
@@ -174,7 +174,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1662,20 +1662,100 @@
         "relevanceSummary": "Explains Colorado registration and mail-ballot deadlines, options to vote by mail, drop box, or voting center, the recommended mail-return date, and Election Day polling hours.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0joyihx",
+        "headline": "Amendment 84 would add an ID requirement for Colorado mail voters",
+        "sourceName": "KOAA News5",
+        "url": "https://www.koaa.com/news/local-news/in-your-community/southeast-side/amendment-84-would-add-an-id-requirement-for-colorado-mail-voters",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "The proposed statewide Amendment 84 would require mail voters to write the last four digits of a Social Security number or driver’s-license number on the ballot envelope while retaining the signature requirement. Any change would apply to CO-08 voters in federal and statewide elections.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0geoxjl",
+        "headline": "Colorado county clerks showing their work in effort to help voters ‘vote with confidence'",
+        "sourceName": "Colorado Public Radio",
+        "url": "https://www.cpr.org/2026/10/13/colorado-clerks-online-guide-voting-confidence/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "Colorado County Clerks Association released a statewide guide explaining election safeguards, ballot verification, drop-box locations and voting deadlines. These procedures apply directly to CO-08 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0sqd1t8",
+        "headline": "Amendment 84 would put ID digits on Colorado mail ballots",
+        "sourceName": "Kim Monson Show",
+        "url": "https://kimmonson.com/news/amendment-84-id-digits-mail-ballot-envelope/",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "This statewide coverage details Amendment 84’s proposed identification-number requirement and explains existing signature verification and identification-copy rules for some first-time Colorado mail voters. The procedures would affect CO-08 voters if adopted.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0z0g6rt",
+        "headline": "2026 voter guide for metro Denver residents",
+        "sourceName": "The Denver Gazette",
+        "url": "https://www.denvergazette.com/2026/10/11/colorado-voter-guide-metro-denver-residents/",
+        "publishedAt": "2026-10-11",
+        "relevanceSummary": "The guide lists Colorado voting dates, Denver vote-center openings, drop-box locations, mail-return timing, BallotTrax and replacement-ballot options. These voter-service procedures are useful to CO-08 residents in the Denver metro area.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0jp599k",
+        "headline": "Election officials settle on fix to 'Coco' train ballot error",
+        "sourceName": "The Gazette",
+        "url": "https://gazette.com/2026/10/10/coco-train-ballot-error-election-solution/",
+        "publishedAt": "2026-10-10",
+        "relevanceSummary": "The Secretary of State’s Office issued county guidance for tabulating the disputed Issue 7A contest and separating eligible from ineligible voters before ballot processing begins. This is a statewide election-administration development with direct relevance to affected Colorado voters.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-09q7ga9",
+        "headline": "After unprecedented Colorado ballot error, what's next for Front Range rail measure?",
+        "sourceName": "The Denver Post",
+        "url": "https://www.denverpost.com/2026/10/09/after-unprecedented-colorado-ballot-error-whats-next-for-front-range-rail-measure/",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "State officials provided Adams, Arapahoe, Douglas and Weld county clerks instructions for distinguishing eligible voters and duplicating affected ballots onto correct ballot styles. The procedures matter to CO-08 voters in affected or neighboring Front Range jurisdictions.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-04k2fkf",
+        "headline": "November 2026 general election: Make a plan to vote",
+        "sourceName": "University of Colorado Boulder Today",
+        "url": "https://www.colorado.edu/today/2026/10/09/november-2026-general-election-make-plan-vote",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "The guide explains Colorado voter-registration updates after moving, mailing-address options and BallotTrax enrollment. The statewide information is relevant to CO-08 voters, including students and recent movers.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0ro7d5x",
+        "headline": "Ballot error in Colorado means hand review for some",
+        "sourceName": "The Gazette",
+        "url": "https://gazette.com/2026/10/08/colorado-hand-count-ballots-passenger-rail/",
+        "publishedAt": "2026-10-08",
+        "relevanceSummary": "Colorado election officials directed counties to manually review some ballots after an incorrect local tax question appeared on ballots sent to ineligible voters. The incident and prescribed handling affect election administration and ballot processing statewide, including relevant Front Range counties.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-co08-auto",
-      "startedAt": "2026-10-07T10:47:11.485Z",
-      "completedAt": "2026-10-07T10:47:50.230Z",
+      "id": "run-2026-10-14-co08-auto",
+      "startedAt": "2026-10-14T09:12:36.185Z",
+      "completedAt": "2026-10-14T09:13:17.936Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
+      "sourcesChecked": 16,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for CO-08. Sources checked: 13. LLM verifications: 7. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-14 for CO-08. Sources checked: 16. LLM verifications: 10. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T10:47:50.230Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:13:17.936Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
