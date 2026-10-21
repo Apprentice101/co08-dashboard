@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-14",
-  "updatedAt": "2026-10-14T09:13:17.936Z",
-  "exportedAt": "2026-10-14T09:31:18.992Z",
+  "dataAsOf": "2026-10-21",
+  "updatedAt": "2026-10-21T09:04:05.176Z",
+  "exportedAt": "2026-10-21T09:21:13.552Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -98,7 +98,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-co-sos-election-day-faq": {
@@ -174,7 +174,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1742,20 +1742,90 @@
         "relevanceSummary": "Colorado election officials directed counties to manually review some ballots after an incorrect local tax question appeared on ballots sent to ineligible voters. The incident and prescribed handling affect election administration and ballot processing statewide, including relevant Front Range counties.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0ooo9be",
+        "headline": "Boulder County Elections to host Behind-the-Scenes Ballot Processing Election Tours",
+        "sourceName": "Boulder County Elections via EIN Presswire",
+        "url": "https://www.einpresswire.com/article/951096071/boulder-county-elections-to-host-behind-the-scenes-ballot-processing-election-tours",
+        "publishedAt": "2026-10-21",
+        "relevanceSummary": "The event covers signature verification, ballot resolution, and other mail-ballot processing safeguards. Although county-specific, it provides current information about Colorado’s election-administration procedures and signature-review process.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0sb7mvn",
+        "headline": "Unaffiliated voters top early submitted ballot totals",
+        "sourceName": "The Gazette",
+        "url": "https://gazette.com/2026/10/20/unaffiliated-voters-top-early-submitted-ballot-totals/",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "The report describes statewide ballot returns and voter-service-center operations, including replacement ballots, registration, accessibility assistance, and Election Day hours. The procedures and deadlines apply to voters in CO-08.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0ics4tk",
+        "headline": "In-person voting now open in Mesa County",
+        "sourceName": "KJCT",
+        "url": "https://www.kjct8.com/2026/10/20/in-person-voting-now-open-mesa-county/",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "Mesa County opened in-person voting and lists eight secure drop-box locations, while emphasizing that mailed ballots must be received—not merely postmarked—by 7 p.m. on Election Day. The county-specific logistics are indirect but relevant as Colorado election-administration precedent for CO-08 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0prooz6",
+        "headline": "Drop Boxes for the 2026 General Election Available Statewide",
+        "sourceName": "El Semanario",
+        "url": "https://www.elsemanarioonline.com/drop-boxes-for-the-2026-general-election-available-statewide/",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The statewide voter guide explains where to find official drop boxes and voter centers, the October 26 recommended mail-return date, and the November 3 7 p.m. deadline. These ballot-return procedures apply directly to CO-08 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-017oadr",
+        "headline": "2026 voting resources on campus and across Colorado",
+        "sourceName": "Early Bird",
+        "url": "https://early-bird.msudenver.edu/2026-voting-resources-on-campus-and-across-colorado/",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The guide explains Colorado registration, acceptable identification for in-person voting, mail-ballot return instructions, and drop-box deadlines. It says October 26 is the deadline to register and receive a ballot by mail, while ballots returned to drop boxes are due by 7 p.m. November 3.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-08muybb",
+        "headline": "Governor Polis Issues Executive Order Supporting Election Integrity Ahead of Statewide Election",
+        "sourceName": "Colorado Governor's Office",
+        "url": "http://governorsoffice.colorado.gov/governor/news/governor-polis-issues-executive-order-supporting-election-integrity-ahead-statewide-election-0",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The governor’s announcement directs voters to GoVoteColorado.gov for polling places, drop boxes, ballot tracking, and registration, and reiterates the October 26 recommended mail deadline and 7 p.m. Election Day return deadline. The statewide guidance directly applies to CO-08 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-01gql0a",
+        "headline": "Denver election officials prepare for 80% turnout as voting centers expand",
+        "sourceName": "Denver7",
+        "url": "https://www.denver7.com/news/national-politics/america-votes/denver-election-officials-prepare-for-80-turnout-as-voting-centers-expand",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "Denver officials report 29 drop boxes, recommend mailing ballots by October 26, and remind voters that ballots must be received by 7 p.m. on November 3. These statewide deadlines and ballot-return options apply to CO-08 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-14-co08-auto",
-      "startedAt": "2026-10-14T09:12:36.185Z",
-      "completedAt": "2026-10-14T09:13:17.936Z",
+      "id": "run-2026-10-21-co08-auto",
+      "startedAt": "2026-10-21T09:03:26.026Z",
+      "completedAt": "2026-10-21T09:04:05.176Z",
       "triggerType": "scheduled",
       "sourcesChecked": 16,
-      "updatesCreated": 8,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-14 for CO-08. Sources checked: 16. LLM verifications: 10. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-21 for CO-08. Sources checked: 16. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-21T09:13:17.936Z",
+    "NEXT_REFRESH_AT": "2026-10-28T09:04:05.176Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
