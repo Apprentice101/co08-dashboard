@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-21",
-  "updatedAt": "2026-10-21T09:04:05.176Z",
-  "exportedAt": "2026-10-21T09:21:13.552Z",
+  "dataAsOf": "2026-10-28",
+  "updatedAt": "2026-10-28T10:15:27.285Z",
+  "exportedAt": "2026-10-28T10:22:53.061Z",
   "districtCode": "CO-08",
   "data": {
     "DISTRICT": {
@@ -74,7 +74,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-co-sos-govote": {
@@ -174,7 +174,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-12",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-hb26-1113": {
@@ -1812,20 +1812,100 @@
         "relevanceSummary": "Denver officials report 29 drop boxes, recommend mailing ballots by October 26, and remind voters that ballots must be received by 7 p.m. on November 3. These statewide deadlines and ballot-return options apply to CO-08 voters.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-co08-04e3tk7",
+        "headline": "Boulder County Government Office, Except Elections Division, Closed Nov. 3",
+        "sourceName": "Boulder County",
+        "url": "https://bouldercounty.gov/news/boulder-county-government-office-except-elections-division-closed-nov-3/",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "Boulder County published Vote Center and 24-hour drop-box availability, including Election Day hours from 7 a.m. to 7 p.m., providing concrete local voting logistics for county voters.[8]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0dq5tan",
+        "headline": "RTD announces Zero Fare to Vote to support voter participation",
+        "sourceName": "RTD",
+        "url": "https://www.rtd-denver.com/community/news/2026/rtd-announces-zero-fare-to-vote-to-support-voter-participation",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "Colorado voters can use GoVoteColorado.gov to locate voting centers and drop boxes, update registration, and track ballots; RTD also provides zero-fare transportation support for voting.[3]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-03fhqvr",
+        "headline": "County clerks say they’re prepared to defend Colorado elections against unprecedented threats",
+        "sourceName": "The Colorado Sun",
+        "url": "https://www.yahoo.com/news/politics/articles/county-clerks-prepared-defend-colorado-205723864.html",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "The article reports that ballots were mailed to active registered Colorado voters and that county clerks may process returned ballots before Election Day, while tabulation remains prohibited until polls close.[2]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0tur900",
+        "headline": "Election officials say ICE is unlikely to visit Colorado polling places but they’re preparing nonetheless",
+        "sourceName": "The Colorado Sun",
+        "url": "https://coloradosun.com/2026/10/26/election-officials-prepare-for-ice-at-polls/",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "Colorado voting centers began opening October 19, and the article describes election officials’ preparations around polling places while noting that most voters return ballots by mail or drop box.[6]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-00r8dkc",
+        "headline": "November 2026 general election: Make a plan to vote",
+        "sourceName": "University of Colorado Boulder",
+        "url": "https://www.colorado.edu/today/2026/10/26/november-2026-general-election-make-plan-vote",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "The statewide guidance says voters may return a Colorado ballot to any official Colorado drop box, register and vote through Election Day, and use valid identification when voting in person.[5]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0hlrgyx",
+        "headline": "Questions or concerns about voting? Text them to Colorado Newsline.",
+        "sourceName": "Colorado Newsline",
+        "url": "https://www.newsfromthestates.com/article/questions-or-concerns-about-voting-text-them-colorado-newsline",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "Colorado’s universal vote-by-mail system allows voters to return ballots by mail, drop box, or voting center. Same-day registration and voting remain available at voting centers through 7 p.m. on Election Day.[4]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0rkc4in",
+        "headline": "Monday is the deadline to mail your 2026 ballot in Colorado, here's how to make sure your vote counts",
+        "sourceName": "CBS News Colorado",
+        "url": "https://www.cbsnews.com/colorado/news/monday-deadline-mail-2026-ballot-colorado-vote-counts/",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "Colorado ballots must be received by a county clerk by 7 p.m. on Election Day; postmarks do not count. After the mail deadline, CO-08 voters should use an official drop box, voting center, or vote in person with acceptable identification.[1]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-co08-0xihrd0",
+        "headline": "Map: Where to drop off your ballot in Denver",
+        "sourceName": "Westword",
+        "url": "https://www.westword.com/news/map-where-to-drop-off-your-ballot-in-denver-40951240/",
+        "publishedAt": "2026-10-22",
+        "relevanceSummary": "The Denver-focused guide lists ballot drop boxes and in-person polling locations, including the identification requirement for in-person voting. Denver County procedures may be useful to CO-08 voters in the district’s Denver-area communities.[7]",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-21-co08-auto",
-      "startedAt": "2026-10-21T09:03:26.026Z",
-      "completedAt": "2026-10-21T09:04:05.176Z",
+      "id": "run-2026-10-28-co08-auto",
+      "startedAt": "2026-10-28T10:14:41.940Z",
+      "completedAt": "2026-10-28T10:15:27.285Z",
       "triggerType": "scheduled",
       "sourcesChecked": 16,
-      "updatesCreated": 7,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-21 for CO-08. Sources checked: 16. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-28 for CO-08. Sources checked: 16. LLM verifications: 11. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-28T09:04:05.176Z",
+    "NEXT_REFRESH_AT": "2026-11-04T10:15:27.285Z",
     "WEEKLY_REPORT": {
       "id": "wr-co08-2026-w24",
       "periodStart": "2026-06-08",
